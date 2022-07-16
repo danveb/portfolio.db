@@ -1,0 +1,103 @@
+.navbar {
+    width: 100%; 
+    height: 50px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    position: fixed; 
+    z-index: 3; 
+    background-color: var(--salmon); 
+    color: var(--brand); 
+    padding: 0 40px; 
+    transition: all 1s ease; 
+
+    @media screen and(max-width: 768px) {
+        padding: 0 50px; 
+    }
+
+    .navbar-left {
+        display: flex; 
+        align-items: center; 
+
+        .logo {
+            font-size: 30px; 
+            font-weight: 600; 
+            text-decoration: none; 
+            color: inherit; 
+            margin-right: 40px; 
+        }
+
+        .navbar-links {
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            list-style: none; 
+
+            li {
+                margin: 0 15px; 
+                cursor: pointer; 
+
+                a {
+                    color: inherit; 
+                    text-decoration: none; 
+                    transition: all 0.3s ease-out; 
+
+                    &:hover {
+                        color: var(--navy); 
+                    }
+                }
+            }
+
+            @media screen and(max-width: 768px) {
+                display: none; 
+            }
+        }
+    }
+
+    .navbar-right {
+        .hamburger {
+            display: flex; 
+            flex-direction: column; 
+            justify-content: space-between; 
+            width: 25px; 
+            height: 20px; 
+            cursor: pointer; 
+
+            span {
+                width: 100%; 
+                height: 3px; 
+                background-color: var(--brand); 
+                transform-origin: left; 
+                transition: all 0.7 ease; 
+            }
+
+            @media screen and(min-width: 768px) {
+                display: none; 
+            }
+        }
+    }
+
+    &.active {
+        background-color: var(--supernavy); 
+        color: var(--superwhite); 
+
+        .hamburger {
+
+            span {
+                &:first-child {
+                    background-color: var(--superwhite); 
+                    transform: rotate(45deg); 
+                }
+
+                &:nth-child(2) {
+                    opacity: 0; // hide color
+                }
+
+                &:last-child {
+                    background-color: var(--superwhite); 
+                    transform: rotate(-45deg); 
+                }
+            }
+        }
+    }
+}
