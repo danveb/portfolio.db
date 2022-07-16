@@ -1,0 +1,160 @@
+.about {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    flex-direction: column; 
+    background-color: var(--pastel); 
+    padding: 0 40px; 
+
+    .about-headline {
+        position: relative; 
+        color: var(--navy); 
+
+        .highlight {
+            position: absolute; 
+            left: 0; 
+            top: 75%; 
+            right: 0%; 
+            bottom: auto; 
+            height: 10px; 
+            margin-right: 10px; 
+            background-color: var(--brand); 
+            opacity: 0.3; 
+    
+            @media screen and(max-width: 768px) {
+                height: 7px; 
+                margin-right: 7px; 
+            }
+    
+            @media screen and(max-width: 480px) {
+                height: 5px; 
+                margin-right: 6px; 
+            }
+        }
+
+        h2 {
+            font-size: 50px; 
+            font-weight: 400; 
+            color: inherit; 
+
+            span {
+                color: var(--brand); 
+            }
+
+            @media screen and(max-width: 768px) {
+                font-size: 30px; 
+            }
+
+            @media screen and(max-width: 480px) {
+                font-size: 26px; 
+            }
+        }
+    }
+
+    .about-introduction {
+        width: 60%; 
+        color: var(--navy); 
+
+        p {
+            color: inherit; 
+            font-size: 22px; 
+            letter-spacing: 0.5px; 
+            margin: 10px 0;
+
+            @media screen and(max-width: 768px) {
+                font-size: 18px; 
+            }
+            
+            @media screen and(max-width: 480px) {
+                font-size: 16px; 
+            }
+        }
+
+        @media screen and(max-width: 768px) {
+            width: 80%; 
+        }
+    
+        @media screen and (max-width: 480px) {
+            width: 100%; 
+        }
+    }
+
+    .btn {
+        background-color: var(--black); 
+        color: var(--superwhite); 
+        margin-top: 20px; 
+        border-radius: 3px; 
+        border: none; 
+        letter-spacing: 1px; 
+        text-transform: lowercase; 
+        cursor: pointer; 
+        padding: 15px 25px; 
+        text-decoration: none; 
+    
+        @media screen and(max-width: 480px) {
+            font-size: 14px; 
+        }
+    }
+
+    .about-life {
+        display: flex; 
+        margin: 20px 0; 
+        color: var(--navy); 
+
+        .about-life--left {
+            flex: 0.5; 
+
+            p {
+                color: inherit; 
+                font-size: 18px; 
+                font-weight: 300; 
+                display: block; 
+                margin-block-start: 1em; 
+                margin-block-end: 1em; 
+                margin-inline-start: 0px; 
+                margin-inline-end: 0px; 
+
+                span {
+                    color: var(--brand); 
+                    font-weight: 600; 
+                }
+
+                @media screen and(max-width: 480px) {
+                    font-size: 16px; 
+                }
+            }
+
+            @media screen and(max-width: 480px) {
+                flex: 1; 
+            }
+        }
+
+        .about-life--right {
+            flex: 0.5; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            margin-top: 30px; 
+            
+            img {
+                width: 250px; 
+                height: 250px; 
+                border-radius: 50%; 
+                object-fit: contain; 
+
+                @media screen and(max-width: 768px) {
+                    width: 200px; 
+                    height: 200px; 
+                }
+
+                @media screen and(max-width: 480px) {
+                    display: none; 
+                }
+            }
+
+            @media screen and(max-width: 480px) {
+                display: none; 
+            }
+        }
+    }
+}

@@ -1,4 +1,5 @@
 import { links } from "../../constants/link";
+import { socials } from "../../constants/social";
 import "./Menu.scss"; 
 
 const Menu = ({ menuOpen, setMenuOpen }) => {
@@ -8,6 +9,13 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
                 {links.map((link)=> (
                     <li key={link.id} onClick={()=> setMenuOpen(!menuOpen)}>
                         <a href={link.url}>{link.text}</a>
+                    </li>
+                ))}
+            </ul>
+            <ul>
+                {socials.map((social) => (
+                    <li key={social.id}>
+                        <a href={social.url} target={social.target} rel={social.rel} className="social">{<social.icon />}</a>
                     </li>
                 ))}
             </ul>

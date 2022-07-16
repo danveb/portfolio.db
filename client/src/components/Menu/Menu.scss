@@ -10,7 +10,7 @@
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
-    transition: all 1s ease; 
+    transition: all 0.5s ease-in-out; 
 
     &.active {
         right: 0; 
@@ -20,9 +20,9 @@
         margin: 0; 
         padding: 0; 
         list-style: none; 
-        font-size: 20px; 
+        font-size: 26px; 
         font-weight: 100; 
-        color: #fff; 
+        color: var(--superwhite); 
         width: 60%; 
 
         li {
@@ -38,5 +38,12 @@
                 font-weight: 500; 
             }
         }
+    }
+}
+
+.social {
+    svg {
+        width: 30px; 
+        height: 30px; 
     }
 }

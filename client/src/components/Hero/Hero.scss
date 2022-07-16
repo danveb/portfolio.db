@@ -1,0 +1,117 @@
+.hero {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    flex-direction: column; 
+    background-color: var(--salmon); 
+    padding: 0 40px; 
+
+    .hero-headline {
+        position: relative; 
+    
+        p {
+            font-size: 36px; 
+            font-weight: 400; 
+            color: var(--navy); 
+            margin: 10px 0; 
+    
+            @media screen and(max-width: 768px) {
+                font-size: 24px; 
+            }
+    
+            @media screen and (max-width: 480px) {
+                font-size: 20px; 
+            }
+        }
+    
+        h2 {
+            font-size: 50px; 
+            font-weight: 400; 
+            color: var(--navy); 
+            margin: 10px 0; 
+    
+            span {
+                color: var(--brand); 
+            }
+    
+            @media screen and(max-width: 768px) {
+                font-size: 30px; 
+            }
+    
+            @media screen and (max-width: 480px) {
+                font-size: 26px; 
+            }
+        }
+    }
+    
+    .hero-introduction {
+        width: 60%; 
+        
+        p {
+            color: var(--navy); 
+            font-size: 22px; 
+            letter-spacing: 0.5px; 
+            margin: 10px 0; 
+    
+            @media screen and(max-width: 768px) {
+                font-size: 18px; 
+            }
+            
+            @media screen and(max-width: 480px) {
+                font-size: 16px; 
+            }
+        }
+    
+        @media screen and(max-width: 768px) {
+            width: 80%; 
+        }
+    
+        @media screen and(max-width: 480px) {
+            width: 100%; 
+        }
+    }
+    
+    .btn {
+        background-color: var(--black); 
+        color: var(--superwhite); 
+        margin-top: 20px; 
+        border-radius: 3px; 
+        border: none; 
+        letter-spacing: 1px; 
+        text-transform: lowercase; 
+        cursor: pointer; 
+        padding: 15px 25px; 
+        text-decoration: none; 
+    
+        @media screen and(max-width: 480px) {
+            font-size: 14px; 
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        padding: 0px 25px; 
+    }
+
+    .hero-svg {
+        
+        a {
+            position: absolute; 
+            bottom: 10px; 
+            left: 50%; 
+            color: var(--brand); 
+            
+            svg {
+                width: 30px; 
+                height: 30px; 
+                animation: arrowBlink 1.5s infinite; 
+                opacity: 0.7; 
+            }
+
+            @keyframes arrowBlink {
+                100% {
+                    opacity: 0.05; 
+                }
+            }
+        }
+    }
+}
