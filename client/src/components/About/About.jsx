@@ -15,7 +15,7 @@ const About = () => {
                 <div className="about-life--left">
                     <p>My journey in web development started back in 2020 when I wrote my first line of code, <span>Hello World</span>. This simple, yet powerful line was the beginning of it all.</p>
                     <p>HTML, CSS and JavaScript gave me the elementary tools to start building creative and intuitive websites.</p>
-                    <p>Fast-forward to today, my main focus of web development is React.js. Combined with Node.js and databases I build scalable and performance-oriented apps.</p>    
+                    <p>Fast-forward to today, most of my attention in web development goes to React.js. combined with Node.js, Express.js and a mixture of PostgreSQL and MongoDB. Creating clean, functional, scalable, and testable applications are my main focus.</p>    
                 </div>
                 <div className="about-life--right">
                     <img src="https://avatars.githubusercontent.com/u/63386733?v=4" alt="github-avatar"/>
