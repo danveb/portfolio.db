@@ -6,8 +6,8 @@
     align-items: center; 
     position: fixed; 
     z-index: 3; 
-    background-color: var(--salmon); 
-    color: var(--brand); 
+    background-color: var(--superblack); 
+    color: var(--superwhite); 
     padding: 0 40px; 
     transition: all 1s ease; 
 
@@ -40,10 +40,11 @@
                 a {
                     color: inherit; 
                     text-decoration: none; 
-                    transition: all 0.3s ease-out; 
+                    transition: all 0.3s ease; 
 
                     &:hover {
-                        color: var(--navy); 
+                        font-weight: 700; 
+                        color: var(--lightpurple); 
                     }
                 }
             }
@@ -66,9 +67,9 @@
             span {
                 width: 100%; 
                 height: 3px; 
-                background-color: var(--brand); 
+                background-color: var(--superwhite); 
                 transform-origin: left; 
-                transition: all 0.7 ease; 
+                transition: all 0.7s ease; 
             }
 
             @media screen and(min-width: 768px) {
