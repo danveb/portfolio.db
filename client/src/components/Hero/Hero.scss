@@ -3,49 +3,57 @@
     justify-content: center; 
     align-items: center; 
     flex-direction: column; 
-    background-color: var(--mainblack); 
-    padding: 0 40px; 
+    background-color: var(--raisin-black); 
+    padding: 0 130px; 
 
+    @media screen and(max-width: 1078px) {
+        padding: 0 110px; 
+    }
+
+    @media screen and(max-width: 768px) {
+        padding: 0 80px; 
+    }
+
+    @media screen and(max-width: 480px) {
+        padding: 0 40px; 
+    }
+    
     .hero-wrapper {
         display: flex; 
         justify-content: center; 
         align-items: center; 
         flex-direction: column; 
-        
+
         img {
-            width: 150px; 
-            height: 190px; 
+            width: 200px; 
+            height: 250px; 
             object-fit: fit; 
             border-radius: 50%; 
+
+            @media screen and(max-width: 768px) {
+                width: 170px; 
+                height: 210px; 
+            }
+
+            @media screen and(max-width: 480px) {
+                width: 150px; 
+                height: 190px; 
+            }
         }
         
         .hero-headline {
-            color: var(--superwhite); 
+            color: var(--alice-blue); 
+            font-family: "Ibarra Real Nova", sans-serif; 
             
-            p {
-                font-size: 24px; 
+            h1 {
+                font-family: inherit; 
+                font-size: 60px; 
                 font-weight: 400; 
-                color: inherit; 
-                margin: 10px 0; 
-                text-align: center; 
-                
-                @media screen and(max-width: 768px) {
-                    font-size: 24px; 
-                }
-                
-                @media screen and (max-width: 480px) {
-                    font-size: 20px; 
-                }
-            }
-            
-            h2 {
-                font-size: 50px; 
-                font-weight: 400; 
-                color: var(--superwhite); 
+                color: var(--alice-blue); 
                 margin: 10px 0; 
                 
                 span {
-                    color: var(--brand); 
+                    color: var(--bottle-green); 
                 }
                 
                 @media screen and(max-width: 768px) {
@@ -53,14 +61,14 @@
                 }
                 
                 @media screen and (max-width: 480px) {
-                font-size: 26px; 
+                font-size: 24px; 
                 }
             }
         }
 
         .hero-introduction {
             width: 50%; 
-            color: var(--supergray); 
+            color: var(--cadet-blue-crayola); 
             
             p {
                 color: inherit; 
@@ -76,10 +84,16 @@
                 @media screen and(max-width: 480px) {
                     font-size: 14px; 
                 }
+
+                .highlight {
+                    background-image: linear-gradient(to right, var(--bottle-green), var(--raisin-black)); 
+                    border-radius: 5px;
+                    padding: 1px 3px;
+                }
             }
         
             @media screen and(max-width: 768px) {
-                width: 80%; 
+                width: 75%; 
             }
         
             @media screen and(max-width: 480px) {
@@ -88,17 +102,28 @@
         }
 
         .btn {
-            color: var(--superwhite); 
-            margin-top: 20px; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            flex-direction: row; 
+            margin: 20px 0; 
+            border: 1px solid var(--bottle-green); 
             border-radius: 55px; 
-            border: 1px solid var(--brand); 
+            padding: 15px 25px; 
+            color: var(--alice-blue); 
             text-transform: lowercase; 
             cursor: pointer; 
-            padding: 15px 25px; 
             text-decoration: none; 
-        
-            @media screen and(max-width: 480px) {
+
+            @media screen and(max-width: 768px) {
+                margin: 15px 0; 
+                padding: 10px 20px; 
                 font-size: 14px; 
+            }
+            
+            @media screen and(max-width: 480px) {
+                font-size: 12px; 
+                margin: 10px 0;
             }
         }
     }

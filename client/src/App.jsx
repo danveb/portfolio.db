@@ -1,8 +1,5 @@
 import { useState } from "react"; 
-import Navbar from "./components/Navbar/Navbar"; 
-import Menu from "./components/Menu/Menu"; 
-import Hero from "./components/Hero/Hero"; 
-import About from "./components/About/About"; 
+import { Navbar, Menu, Hero, About, Projects, Contact } from "./components/index"; 
 import "./App.scss"; 
 
 const App = () => {
@@ -14,6 +11,8 @@ const App = () => {
             <div className="sections">
                 <Hero />
                 <About />
+                <Projects />
+                <Contact />
             </div>
         </div>
     )

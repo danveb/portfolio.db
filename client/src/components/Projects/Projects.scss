@@ -1,0 +1,90 @@
+.projects {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    background-color: var(--alice-blue); 
+
+    .card-container {
+        width: 500px; 
+        margin: 30px; 
+        overflow: hidden; 
+        box-shadow: 0 0 15px -5px; 
+        transition: all 0.3s ease-in; 
+
+        &:hover {
+            transform: scale(1.05); 
+            box-shadow: 0 0 15px -5px; 
+        }
+
+        .image-container {
+            
+            img {
+                height: 300px; 
+                width: 100%; 
+                object-fit: contain; 
+                overflow: hidden; 
+            }
+        }
+
+        .card-content {
+            margin: 20px; 
+            
+            .card-title {
+                margin: 10px; 
+                font-family: "Playfair Display", sans-serif; 
+            
+                h1 {
+                    font-size: 26px; 
+                    font-family: inherit; 
+                    font-weight: 400; 
+                }
+            }
+
+            .card-body {
+                margin: 10px; 
+                font-family: "Playfair Display", sans-serif; 
+
+                p {
+                    font-size: 14px; 
+                    font-family: inherit; 
+                }
+            }
+
+            .btn {
+                margin: 10px; 
+                display: inline-block; 
+                font-family: "Playfair Display", sans-serif; 
+
+                button {
+                    background-color: var(--languid-lavender); 
+                    border: 1px solid transparent; 
+                    padding: 5px 7px; 
+                    text-transform: uppercase; 
+                    font-size: 10px; 
+                    font-family: inherit; 
+                }
+            }
+
+            .card-footer {
+                margin: 10px; 
+                display: flex; 
+                flex-direction: column; 
+                font-family: "Playfair Display", sans-serif; 
+
+                a {
+                    padding: 3px; 
+                    color: inherit; 
+                    font-family: inherit; 
+                    text-decoration: none; 
+                    transition: all 0.5s ease-out; 
+
+                    &:hover {
+                        color: var(--bottle-green); 
+                        text-decoration: underline; 
+                    }
+                }
+            }
+        }
+    }
+}

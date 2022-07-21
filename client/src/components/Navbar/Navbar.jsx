@@ -1,12 +1,11 @@
-import { links } from "../../constants/link"; 
+import { links } from "../../constants/links"; 
 import "./Navbar.scss"; 
-
 
 const Navbar = ({ menuOpen, setMenuOpen }) => {
     return (
         <div className={"navbar " + (menuOpen && "active")}>
             <div className="navbar-left">
-                <a href="#hero" className="logo">db</a>
+                <a href="#intro" className="logo">db<span>.</span></a>
                 <ul className="navbar-links">
                     {links.map((link) => (
                         <li key={link.id}>

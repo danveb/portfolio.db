@@ -1,10 +1,5 @@
 export const links = [
     {
-        id: 0, 
-        text: "intro", 
-        url: "#hero", 
-    },
-    {
         id: 1, 
         text: "about", 
         url: "#about", 
@@ -19,4 +14,4 @@ export const links = [
         text: "contact", 
         url: "#contact", 
     },
-]
+]; 

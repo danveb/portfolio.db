@@ -1,5 +1,5 @@
-import { links } from "../../constants/link";
-import { socials } from "../../constants/social";
+import { links } from "../../constants/links";
+import { socials } from "../../constants/socials";
 import "./Menu.scss"; 
 
 const Menu = ({ menuOpen, setMenuOpen }) => {
