@@ -26,11 +26,14 @@
             color: inherit; 
             margin-right: 40px; 
         }
+    }
+
+    .navbar-right {
 
         .navbar-links {
             display: flex; 
             align-items: center; 
-            justify-content: center; 
+            justify-content: flex-end; 
             list-style: none; 
 
             li {
@@ -53,9 +56,7 @@
                 display: none; 
             }
         }
-    }
 
-    .navbar-right {
         .hamburger {
             display: flex; 
             flex-direction: column; 

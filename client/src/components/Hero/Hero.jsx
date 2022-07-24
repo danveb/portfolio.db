@@ -1,19 +1,19 @@
-import profile from "../../constants/profile.jpg"; 
 import "./Hero.scss"; 
 
 const Hero = () => {
     return (
         <div id="intro" className="hero">
             <div className="hero-wrapper">
-                <img src={profile} alt="avatar" />
                 <div className="hero-headline">
-                    <h1>Hi, I'm Danny Bae<span>.</span></h1>
+                    <h1>Hi, I'm Danny<span>.</span>
+                    <span>Frontend Developer.</span></h1>
                 </div>
                 <div className="hero-introduction">
-                    <p>I'm a <span className="highlight">frontend developer</span>, passionate about finding ways to efficiently solve complex problems and make a positive difference for today and for tomorrow.</p>
+                    <p>I'm passionate about finding ways to efficiently solve complex problems and make a positive difference for today and for tomorrow.</p>
                 </div>
-                <a href="#about" className="btn">About Me</a>
-                <a href="https://www.github.com/danveb" target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
+            </div>
+            <div className="hero-btn">
+                <a href="https://www.linkedin.com/in/daniel-eze-bae" target="_blank" rel="noopener noreferrer" className="btn">Let's Work Together</a>
             </div>
         </div>
     )

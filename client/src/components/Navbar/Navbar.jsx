@@ -6,15 +6,18 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
         <div className={"navbar " + (menuOpen && "active")}>
             <div className="navbar-left">
                 <a href="#intro" className="logo">db<span>.</span></a>
+            </div>
+            <div className="navbar-right">
                 <ul className="navbar-links">
                     {links.map((link) => (
                         <li key={link.id}>
                             <a href={link.url}>{link.text}</a>
                         </li>
                     ))}
+                    <li>
+                        <a href="https://drive.google.com/file/d/1wucwIMj5H4cytQp3QRCMEblhZZR_8Y3k/view?usp=sharing" rel="noopener noreferrer" target="_blank">resume</a>
+                    </li>
                 </ul>
-            </div>
-            <div className="navbar-right">
                 <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
                     <span className="line1"></span>
                     <span className="line2"></span>

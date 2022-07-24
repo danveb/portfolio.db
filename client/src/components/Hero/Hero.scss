@@ -3,7 +3,7 @@
     justify-content: center; 
     align-items: center; 
     flex-direction: column; 
-    background-color: var(--raisin-black); 
+    background-color: var(--rich-black); 
     padding: 0 130px; 
 
     @media screen and(max-width: 1078px) {
@@ -23,52 +23,53 @@
         justify-content: center; 
         align-items: center; 
         flex-direction: column; 
-
-        img {
-            width: 200px; 
-            height: 250px; 
-            object-fit: fit; 
-            border-radius: 50%; 
-
-            @media screen and(max-width: 768px) {
-                width: 170px; 
-                height: 210px; 
-            }
-
-            @media screen and(max-width: 480px) {
-                width: 150px; 
-                height: 190px; 
-            }
-        }
         
         .hero-headline {
             color: var(--alice-blue); 
-            font-family: "Ibarra Real Nova", sans-serif; 
+            font-family: "Kaisei Opti", sans-serif; 
             
             h1 {
                 font-family: inherit; 
-                font-size: 60px; 
+                font-size: 70px; 
                 font-weight: 400; 
-                color: var(--alice-blue); 
+                background-image: linear-gradient(to left, #d53369, #cbad6d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
                 margin: 10px 0; 
+                text-align: center; 
                 
                 span {
-                    color: var(--bottle-green); 
+                    font-family: inherit; 
+                    
+                    &:first-child {
+                        color: var(--bottle-green); 
+                    }
+
+                    &:last-child {
+                        display: block; 
+                        background-image: linear-gradient(to left, #d53369, #cbad6d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                }
+
+                @media screen and(max-width: 1024px) {
+                    font-size: 55px; 
                 }
                 
                 @media screen and(max-width: 768px) {
-                    font-size: 30px; 
+                    font-size: 40px; 
                 }
                 
                 @media screen and (max-width: 480px) {
-                font-size: 24px; 
+                font-size: 30px; 
                 }
             }
         }
 
         .hero-introduction {
-            width: 50%; 
-            color: var(--cadet-blue-crayola); 
+            width: 75%; 
+            color: var(--alice-blue); 
             
             p {
                 color: inherit; 
@@ -84,46 +85,39 @@
                 @media screen and(max-width: 480px) {
                     font-size: 14px; 
                 }
-
-                .highlight {
-                    background-image: linear-gradient(to right, var(--bottle-green), var(--raisin-black)); 
-                    border-radius: 5px;
-                    padding: 1px 3px;
-                }
             }
         
             @media screen and(max-width: 768px) {
-                width: 75%; 
-            }
-        
-            @media screen and(max-width: 480px) {
                 width: 100%; 
             }
         }
+    }
+    
+    .hero-btn {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        gap: 15px; 
 
         .btn {
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            flex-direction: row; 
             margin: 20px 0; 
-            border: 1px solid var(--bottle-green); 
+            background: linear-gradient(to left, #348f50, #56b4d3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             border-radius: 55px; 
-            padding: 15px 25px; 
+            padding: 15px 20px; 
             color: var(--alice-blue); 
-            text-transform: lowercase; 
             cursor: pointer; 
             text-decoration: none; 
+            font-weight: 700; 
 
             @media screen and(max-width: 768px) {
                 margin: 15px 0; 
-                padding: 10px 20px; 
+                padding: 10px 15px; 
                 font-size: 14px; 
             }
-            
+
             @media screen and(max-width: 480px) {
                 font-size: 12px; 
-                margin: 10px 0;
+                margin: 10px 0; 
             }
         }
     }

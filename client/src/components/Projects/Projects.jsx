@@ -22,8 +22,8 @@ const Projects = () => {
                             </div>
                         ))} 
                         <div className="card-footer">
-                            <a href={project.liveCode} target={project.target} rel={project.rel}>{project.liveCode !== "" ? "Live Demo" : ""}</a>
-                            <a href={project.sourceCode} target={project.target} rel={project.rel}>{project.sourceCode !== "" ? "GitHub Repo" : ""}</a>
+                            <a href={project.liveCode} target={project.target} rel={project.rel}>{project.liveCode !== "" ? "View App" : ""}</a>
+                            <a href={project.sourceCode} target={project.target} rel={project.rel}>{project.sourceCode !== "" ? "Source Code" : ""}</a>
                         </div>
                     </div>
                 </div>
