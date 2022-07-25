@@ -7,15 +7,15 @@
     padding: 0 130px; 
 
     @media screen and(max-width: 1078px) {
-        padding: 0 110px; 
+        padding: 0 100px; 
     }
 
     @media screen and(max-width: 768px) {
-        padding: 0 80px; 
+        padding: 0 50px; 
     }
 
     @media screen and(max-width: 480px) {
-        padding: 0 40px; 
+        padding: 0 10px; 
     }
     
     .hero-wrapper {
@@ -32,9 +32,6 @@
                 font-family: inherit; 
                 font-size: 70px; 
                 font-weight: 400; 
-                background-image: linear-gradient(to left, #d53369, #cbad6d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
                 margin: 10px 0; 
                 text-align: center; 
                 
@@ -45,24 +42,25 @@
                         color: var(--bottle-green); 
                     }
 
-                    &:last-child {
+                    &:nth-child(2) {
                         display: block; 
-                        background-image: linear-gradient(to left, #d53369, #cbad6d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;
+                    }
+
+                    &:nth-child(3) {
+                        color: var(--bottle-green); 
                     }
                 }
 
                 @media screen and(max-width: 1024px) {
-                    font-size: 55px; 
+                    font-size: 56px; 
                 }
                 
                 @media screen and(max-width: 768px) {
-                    font-size: 40px; 
+                    font-size: 36px; 
                 }
                 
                 @media screen and (max-width: 480px) {
-                font-size: 30px; 
+                    font-size: 30px; 
                 }
             }
         }
@@ -101,7 +99,7 @@
 
         .btn {
             margin: 20px 0; 
-            background: linear-gradient(to left, #348f50, #56b4d3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            border: 1px solid var(--bottle-green); 
             border-radius: 55px; 
             padding: 15px 20px; 
             color: var(--alice-blue); 
