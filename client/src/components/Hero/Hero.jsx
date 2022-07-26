@@ -1,4 +1,5 @@
 import "./Hero.scss"; 
+import laptop from "../../constants/koffee.png"; 
 
 const Hero = () => {
     return (
@@ -11,9 +12,12 @@ const Hero = () => {
                 <div className="hero-introduction">
                     <p>I'm passionate about finding ways to efficiently solve complex problems and make a positive difference for today and for tomorrow.</p>
                 </div>
-            </div>
-            <div className="hero-btn">
-                <a href="https://www.linkedin.com/in/daniel-eze-bae" target="_blank" rel="noopener noreferrer" className="btn">Let's Work Together</a>
+                <div className="hero-btn">
+                    <a href="https://www.linkedin.com/in/daniel-eze-bae" target="_blank" rel="noopener noreferrer" className="btn">Let's Work Together</a>
+                </div>
+                <div className="hero-laptop">
+                    <img src={laptop} alt="" />
+                </div>
             </div>
         </div>
     )
