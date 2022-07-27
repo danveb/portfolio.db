@@ -1,5 +1,5 @@
+import laptop from "../../constants/laptop.png"; 
 import "./Hero.scss"; 
-import laptop from "../../constants/koffee.png"; 
 
 const Hero = () => {
     return (

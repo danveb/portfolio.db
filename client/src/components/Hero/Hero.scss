@@ -16,7 +16,7 @@
     }
 
     @media screen and(max-width: 480px) {
-        padding: 0 20px; 
+        padding: 0 30px; 
     }
     
     .hero-wrapper {
@@ -31,7 +31,7 @@
             
             h1 {
                 font-family: inherit; 
-                font-size: 70px; 
+                font-size: 60px; 
                 font-weight: 400; 
                 margin: 10px 0; 
                 text-align: center; 
@@ -67,7 +67,7 @@
         }
 
         .hero-introduction {
-            width: 75%; 
+            width: 70%; 
             color: var(--alice-blue); 
             
             p {
@@ -100,7 +100,6 @@
             display: flex; 
             justify-content: center; 
             align-items: center; 
-            gap: 15px; 
 
             .btn {
                 margin: 20px 0; 
@@ -132,18 +131,18 @@
 
             img {
                 height: auto; 
-                width: 1024px; 
+                width: 70vh; 
 
                 @media screen and(max-width: 1024px) {
-                    width: 700px
+                    width: 60vh; 
                 }
 
                 @media screen and(max-width: 768px) {
-                    width: 500px; 
+                    width: 40vh; 
                 }
 
                 @media screen and(max-width: 480px) {
-                    width: 300px; 
+                    width: 25vh; 
                 }
             }
         }
