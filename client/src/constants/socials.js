@@ -12,14 +12,14 @@ export const socials = [
     },
     {
         id: 2, 
-        url: "https://www.github.com/danveb", 
+        url: "https://www.linkedin.com/in/daniel-eze-bae", 
         target: "_blank", 
         rel: "noreferrer noopener", 
         icon: LinkedInIcon, 
     },
     {
         id: 3, 
-        url: "https://www.github.com/danveb", 
+        url: "mailto:danibae91@gmail.com", 
         target: "_blank", 
         rel: "noreferrer noopener", 
         icon: AlternateEmailIcon, 
