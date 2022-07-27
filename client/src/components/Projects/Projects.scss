@@ -22,7 +22,7 @@
             overflow: hidden; 
             box-shadow: 0 0 15px -5px; 
             transition: all 0.3s ease-in; 
-            border-radius: 23px; 
+            border-radius: 23px;
 
             &:hover {
                 transform: scale(1.05); 
@@ -41,10 +41,11 @@
 
             .card-content {
                 margin: 20px; 
+                font-family: "Space Grotesk", sans-serif; 
                 
                 .card-title {
                     margin: 10px; 
-                    font-family: "Playfair Display", sans-serif; 
+                    font-family: inherit; 
                 
                     h1 {
                         font-size: 26px; 
@@ -55,18 +56,19 @@
 
                 .card-body {
                     margin: 10px; 
-                    font-family: "Playfair Display", sans-serif; 
+                    font-family: inherit; 
 
                     p {
                         font-size: 14px; 
                         font-family: inherit; 
+                        font-weight: 300; 
                     }
                 }
 
                 .btn {
                     margin: 10px; 
                     display: inline-block; 
-                    font-family: "Playfair Display", sans-serif; 
+                    font-family: inherit; 
 
                     button {
                         background-color: var(--languid-lavender); 
@@ -79,12 +81,11 @@
                 }
 
                 .card-footer {
-                    margin: 10px; 
                     display: flex; 
                     flex-direction: row; 
                     justify-content: space-between; 
                     align-items: center; 
-                    font-family: "Playfair Display", sans-serif; 
+                    font-family: inherit; 
 
                     a {
                         border-radius: 55px; 

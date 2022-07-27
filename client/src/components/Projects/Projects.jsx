@@ -23,8 +23,8 @@ const Projects = () => {
                                 </div>
                             ))} 
                             <div className="card-footer">
-                                <a href={project.liveCode} target={project.target} rel={project.rel}>{project.liveCode !== "" ? "View Live" : ""}</a>
-                                <a href={project.sourceCode} target={project.target} rel={project.rel}>{project.sourceCode !== "" ? "Source Code" : ""}</a>
+                                <a href={project.liveSite} target={project.target} rel={project.rel}>{project.liveSite !== "" ? "Live Site" : ""}</a>
+                                <a href={project.githubRepo} target={project.target} rel={project.rel}>{project.githubRepo !== "" ? "GitHub Repo" : ""}</a>
                             </div>
                         </div>
                     </div>

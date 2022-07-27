@@ -1,39 +1,35 @@
+import profile from "../../assets/profile/profile.jpg"; 
+import { logos } from "../../constants/logos"; 
 import "./About.scss"; 
 
 const About = () => {
     return (
-        <div id="about" className="about">
-            <div className="about-wrapper">
-                <div className="about-headline">
-                    <h2>Frontend developer<span>.</span></h2>
+    <div id="about" className="about">
+        <div className="about-wrapper">
+            <div className="about-left">
+                <img src={profile} alt="barista" />
+            </div>
+            <div className="about-right">
+                <div className="about-title">
+                    <h3>My Story<span>.</span></h3>
                 </div>
-                <div className="about-introduction">
-                    <p>I have two years of hands-on experience creating interactive and user-friendly applications, using the latest technologies.</p>
+                <div className="about-description">
+                    <p>My journey started in 2020 when I wrote my first line of code, <span>Hello World</span> on an HTML document. This simple, yet powerful line of code was the catalyst to learning web development (courses on HTML, CSS & JavaScript) and thus building my first static website.</p>
+                    <p>Fast-forward to today, most of my web development work is with React. I design and develop web apps that provide a rich user interface/experience. I focus on creating clean, functional, scalable, and testable apps.</p>
+                    <p>On weekends I spend time tufting cool rugs, crafting home-made boba tea with friends and dreaming about soccer.</p>
                 </div>
-                <a href="https://drive.google.com/file/d/1wucwIMj5H4cytQp3QRCMEblhZZR_8Y3k/view?usp=sharing" target="_blank" rel="noreferrer" className="btn">See Resume</a>
-                <div className="about-life">
-                    <div className="left">
-                        <p>My journey in web development started back in 2020 when I wrote my first line of code, <span>Hello World</span>. This simple, yet powerful line was the beginning of it all.</p>
-                        <p>HTML, CSS and JavaScript gave me the elementary tools to start building creative and intuitive websites.</p>
-                        <p>Fast-forward to today, most of my attention in web development goes to React.js. combined with Node.js, Express.js and a mixture of PostgreSQL and MongoDB. Creating clean, functional, scalable, and testable applications are my main focus.</p>                        
-                    </div>
-                    <div className="right">
-                        <button>
-                            JavaScript (ES6+)
-                        </button>
-                        <button>
-                            React.js
-                        </button>
-                        <button>
-                            Node.js
-                        </button>
-                        <button>
-                            PostgreSQL/MongoDB
-                        </button>
-                    </div>
+                <div className="about-skills">
+                    <ul>
+                        {logos.map((logo) => (
+                            <li key={logo.id}>
+                                <img src={logo.img} alt={logo.alt} />
+                            </li>
+                        ))}
+                    </ul>
                 </div>
             </div>
         </div>
+    </div>
     )
 }
 

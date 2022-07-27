@@ -1,4 +1,4 @@
-import laptop from "../../constants/laptop.png"; 
+import laptop from "../../assets/projects/laptop.png"; 
 import "./Hero.scss"; 
 
 const Hero = () => {
