@@ -1,3 +1,4 @@
+import asador from "../assets/projects/asador.png"; 
 import bobaLife from "../assets/projects/bobaLife.png"; 
 import ioniq5 from "../assets/projects/ioniq5.png"; 
 import sailmasterII from "../assets/projects/sailmasterII.png"; 
@@ -7,10 +8,22 @@ import laptopMain from "../assets/projects/laptop-main.png";
 export const projects = [
     {
         id: 1, 
+        img: asador, 
+        title: "asador", 
+        description: "Ever wondered about asado (barbeque) in Buenos Aires? Asador is all about sharing the joy of the best parrillas (steakhouses). Users are greeted with a live map with pins. Signing up for an account allows users to pin their favorite parrillas.", 
+        buttons: ["React", "Redux", "Sass", "Express", "JWT", "MapboxGL API", "MongoDB", "Netlify"],
+        backgroundColor: "var(--raisin-black)", 
+        liveSite: "https://asador.netlify.app/about", 
+        githubRepo: "https://github.com/danveb/asador.ly", 
+        target: "_blank", 
+        rel: "noreferrer noopener", 
+    }, 
+    {
+        id: 2, 
         img: koffee, 
         title: "koffee.ly", 
         description: "A clean and modern React app designed for an upcoming coffee shop in town. Users can create an account browse a selection of classic coffee products and check out their favorite coffee drinks. Implemented with Stripe for payment. Work in progress!", 
-        buttons: ["React", "Redux", "Styled Components", "Express", "JWT", "Stripe", "MongoDB"],
+        buttons: ["React", "Redux", "Styled Components", "Express", "JWT", "Stripe API", "MongoDB", "Netlify"],
         backgroundColor: "var(--powder-blue)", 
         liveSite: "TBA", 
         githubRepo: "https://github.com/danveb/koffee.ly", 
@@ -18,11 +31,11 @@ export const projects = [
         rel: "noreferrer noopener", 
     }, 
     {
-        id: 2, 
+        id: 3, 
         img: bobaLife, 
         title: "bobaLife", 
-        description: "Who enjoys sipping a fresh cup of boba at any time of the day? bobaLife is a personal website that I designed for a potential side-business opportunity. This app is still in the early stages of development. Work in progress!", 
-        buttons: ["React", "Sass", "Express", "JWT", "Auth", "MongoDB", "Netlify"], 
+        description: "Who enjoys sipping a fresh cup of boba at any time of the day? bobaLife is a personal website that I designed for a potential side-business opportunity. This app is still in the early stages of development. Work in progress.", 
+        buttons: ["React", "Sass", "Express", "JWT", "MongoDB", "Netlify"], 
         backgroundColor: "var(--fuzzy-wuzzy)", 
         liveSite: "https://bobalife.netlify.app", 
         githubRepo: "https://github.com/danveb/bobalife", 
@@ -30,19 +43,19 @@ export const projects = [
         rel: "noreferrer noopener", 
     }, 
     {
-        id: 3, 
+        id: 4, 
         img: ioniq5, 
         title: "ioniq5 Lookup", 
         description: "App designed for users who want to search deliveries of 2022 Hyundai IONIQ 5 to local dealerships. User can fill in the zipcode and desired radius (in miles). Data is fetched from Hyundai USA's API and key details are displayed on a table.", 
-        buttons: ["React", "Sass", "Express", "Hyundai USA API", "Surge"], 
+        buttons: ["React", "Sass", "Express", "Hyundai USA API", "Netlify"], 
         backgroundColor: "var(--ny-pink)", 
-        liveSite: "https://ioniq5-lookup.surge.sh/", 
+        liveSite: "https://ioniq5-lookup.netlify.app/", 
         githubRepo: "https://github.com/danveb/ioniq5", 
         target: "_blank", 
         rel: "noreferrer noopener", 
     }, 
     {
-        id: 4, 
+        id: 5, 
         img: sailmasterII, 
         title: "Sail Master II", 
         description: "Sail-Master II is an app for sailors and water sports’ enthusiasts that have a common goal to share the joy in sailing. This app lets users know if sailing conditions based on current wind parameters are appropriate to enjoy a day out on the water.", 
@@ -54,7 +67,7 @@ export const projects = [
         rel: "noreferrer noopener", 
     }, 
     {
-        id: 5, 
+        id: 6, 
         img: laptopMain, 
         title: "More Projects on GitHub", 
         description: "Check my GitHub link to view more projects where I continue to build user-focused apps. Follow the link below!", 

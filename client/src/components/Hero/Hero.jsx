@@ -1,4 +1,5 @@
-import ioniq5 from "../../assets/projects/ioniq5.png"; 
+// import ioniq5 from "../../assets/projects/ioniq5.png"; 
+import laptop from "../../assets/projects/asador.png"; 
 import "./Hero.scss"; 
 
 const Hero = () => {
@@ -16,7 +17,7 @@ const Hero = () => {
                     <a href="https://www.linkedin.com/in/daniel-eze-bae" target="_blank" rel="noopener noreferrer" className="btn">Let's Work Together</a>
                 </div>
                 <div className="hero-laptop">
-                    <img src={ioniq5} alt="laptop hero" />
+                    <img src={laptop} alt="laptop hero" />
                 </div>
             </div>
         </div>
