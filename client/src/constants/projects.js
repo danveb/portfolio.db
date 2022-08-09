@@ -34,7 +34,7 @@ export const projects = [
         id: 3, 
         img: bobaLife, 
         title: "bobaLife", 
-        description: "Who enjoys sipping a fresh cup of boba at any time of the day? bobaLife is a personal website that I designed for a potential side-business opportunity. This app is still in the early stages of development. Work in progress.", 
+        description: "Who enjoys sipping an ice-cold boba milk tea at any time of the day? bobaLife is a personal website I designed for a potential side-biz opportunity. This app includes React Redux and is scalable. Still mid-development; work in progress.", 
         buttons: ["React", "Sass", "Express", "JWT", "MongoDB", "Netlify"], 
         backgroundColor: "var(--fuzzy-wuzzy)", 
         liveSite: "https://bobalife.netlify.app", 

@@ -14,7 +14,10 @@ const Hero = () => {
                     <p>I'm passionate about finding ways to efficiently solve complex problems and make a positive difference for today and for tomorrow.</p>
                 </div>
                 <div className="hero-btn">
-                    <a href="https://www.linkedin.com/in/daniel-eze-bae" target="_blank" rel="noopener noreferrer" className="btn">Let's Work Together</a>
+                    <a href="https://www.linkedin.com/in/daniel-eze-bae" target="_blank" rel="noopener noreferrer" className="btn">
+                        <div className="hover"></div>
+                        <span>Let's Work Together</span>
+                    </a>
                 </div>
                 <div className="hero-laptop">
                     <img src={laptop} alt="laptop hero" />
