@@ -6,8 +6,6 @@ import express from "../assets/logos/express.png";
 import mongoDB from "../assets/logos/mongoDB.png"; 
 import psql from "../assets/logos/psql.png"; 
 import sass from "../assets/logos/sass.png";  
-import jest from "../assets/logos/jest.png";  
-import jasmine from "../assets/logos/jasmine.png"
 
 export const logos = [
     {
@@ -57,17 +55,5 @@ export const logos = [
         text: "mongoDB", 
         img: mongoDB, 
         alt: "mongoDB logo", 
-    }, 
-    {
-        id: 9, 
-        text: "jest", 
-        img: jest, 
-        alt: "jest logo", 
-    }, 
-    {
-        id: 10, 
-        text: "jasmine", 
-        img: jasmine, 
-        alt: "jasmine logo", 
     }, 
 ]; 

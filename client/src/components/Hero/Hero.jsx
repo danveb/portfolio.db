@@ -22,6 +22,16 @@ const Hero = () => {
                 <div className="hero-laptop">
                     <img src={laptop} alt="laptop hero" />
                 </div>
+                <div className="scroll-arrow">
+                <svg width="30px" height="30px">
+                    <path
+                        stroke="#ffffff"
+                        fill="none"
+                        strokeWidth="2px"
+                        d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
+                    ></path>
+                </svg>
+                </div>
             </div>
         </div>
     )
