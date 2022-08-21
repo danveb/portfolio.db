@@ -3,7 +3,7 @@ import bobaLife from "../assets/projects/bobaLife.png";
 import ioniq5 from "../assets/projects/ioniq5.png"; 
 import sailmasterII from "../assets/projects/sailmasterII.png"; 
 import koffee from "../assets/projects/koffee.png"; 
-import laptopMain from "../assets/projects/laptop-main.png"; 
+import laptopMain from "../assets/projects/laptop1.png"; 
 
 export const projects = [
     {
@@ -22,7 +22,7 @@ export const projects = [
         id: 2, 
         img: bobaLife, 
         title: "bobaLife", 
-        description: "Who enjoys sipping an ice-cold boba milk tea at any time of the day? bobaLife is a personal website I designed for a potential side-biz opportunity. This app includes React Redux and features JWT and Auth on the backend. Work in progress.", 
+        description: "Who enjoys sipping an ice-cold boba milk tea at any time of the day? bobaLife is a personal website I designed for a potential side-biz opportunity. This app includes React Redux and features JWT and Auth on the backend. Potentially may work on an e-commerce functionality.", 
         buttons: ["React", "Redux", "Sass", "Express", "JWT", "MongoDB", "Netlify"], 
         backgroundColor: "var(--fuzzy-wuzzy)", 
         liveSite: "https://bobalife.netlify.app", 
