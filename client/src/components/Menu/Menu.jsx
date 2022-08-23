@@ -12,7 +12,7 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
                     </li>
                 ))}
                 <li>
-                    <a href="https://drive.google.com/file/d/1wucwIMj5H4cytQp3QRCMEblhZZR_8Y3k/view?usp=sharing" rel="noopener noreferrer" target="_blank">resume</a>
+                    <a href="https://drive.google.com/file/d/12SyFoMp7IEL_Vkne9W3Akz5Nt0gB9YvE/view?usp=sharing" rel="noopener noreferrer" target="_blank">resume</a>
                 </li>
             </ul>
             <ul>
