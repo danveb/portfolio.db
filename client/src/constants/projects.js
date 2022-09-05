@@ -2,12 +2,23 @@ import asador from "../assets/projects/asador.png";
 import bobaLife from "../assets/projects/bobaLife.png"; 
 import ioniq5 from "../assets/projects/ioniq5.png"; 
 import sailmasterII from "../assets/projects/sailmasterII.png"; 
-import koffee from "../assets/projects/koffee.png"; 
 import laptopMain from "../assets/projects/laptop1.png"; 
 
 export const projects = [
     {
         id: 1, 
+        img: bobaLife, 
+        title: "bobaLife", 
+        description: "Who enjoys sipping an ice-cold boba milk tea at any time of the day? bobaLife is an e-commerce web app designed for a fictitous boba shop. This app incorporates working cart/checkout process and integration of Stripe mobile payments.",
+        buttons: ["React", "Redux", "Styled Components", "Express", "JWT", "Stripe-js", "MongoDB", "Netlify"], 
+        backgroundColor: "var(--fuzzy-wuzzy)", 
+        liveSite: "https://bobalife.netlify.app", 
+        githubRepo: "https://github.com/danveb/bobalife", 
+        target: "_blank", 
+        rel: "noreferrer noopener", 
+    }, 
+    {
+        id: 2, 
         img: asador, 
         title: "asador", 
         description: "Ever wondered about asado (barbeque) in Buenos Aires? Asador is all about sharing the joy of the best parrillas (steakhouses). Users are greeted with a live map with pins. Signing up for an account allows users to pin their favorite parrillas.", 
@@ -19,35 +30,11 @@ export const projects = [
         rel: "noreferrer noopener", 
     }, 
     {
-        id: 2, 
-        img: bobaLife, 
-        title: "bobaLife", 
-        description: "Who enjoys sipping an ice-cold boba milk tea at any time of the day? bobaLife is a personal website I designed for a potential side-biz opportunity. This app includes React Redux and features JWT and Auth on the backend. Potentially may work on an e-commerce functionality.", 
-        buttons: ["React", "Redux", "Sass", "Express", "JWT", "MongoDB", "Netlify"], 
-        backgroundColor: "var(--fuzzy-wuzzy)", 
-        liveSite: "https://bobalife.netlify.app", 
-        githubRepo: "https://github.com/danveb/bobalife", 
-        target: "_blank", 
-        rel: "noreferrer noopener", 
-    }, 
-    {
         id: 3, 
-        img: koffee, 
-        title: "koffee.ly", 
-        description: "An e-commerce website designed for a fictitious coffee shop in town. Browse a selection of classic coffee products and accessories while enjoying an ice-cold coffee. Currently this app is in development stage as I continue to build functionalities. Work in progress!", 
-        buttons: ["React", "Redux", "Styled Components", "Express", "JWT", "MongoDB"],
-        backgroundColor: "var(--powder-blue)", 
-        liveSite: "", 
-        githubRepo: "https://github.com/danveb/koffee.ly", 
-        target: "_blank", 
-        rel: "noreferrer noopener", 
-    }, 
-    {
-        id: 4, 
         img: ioniq5, 
         title: "ioniq5 Lookup", 
-        description: "App designed for users who want to search deliveries of 2022 Hyundai IONIQ 5 to local dealerships. User can fill in the zipcode and desired radius (in miles). Data is fetched from Hyundai USA's API and key details are displayed on a table.", 
-        buttons: ["React", "Sass", "Material UI", "Express", "Hyundai USA API", "Netlify"], 
+        description: "App designed for users who want to search deliveries of 2022 Hyundai IONIQ 5 to local dealerships. User can fill in the zipcode and radius. Data is fetched from Hyundai's API and key details are displayed on a table.", 
+        buttons: ["React", "Sass", "MUI", "Express", "Hyundai USA API", "Netlify"], 
         backgroundColor: "var(--ny-pink)", 
         liveSite: "https://ioniq5-lookup.netlify.app/", 
         githubRepo: "https://github.com/danveb/ioniq5", 
@@ -55,11 +42,11 @@ export const projects = [
         rel: "noreferrer noopener", 
     }, 
     {
-        id: 5, 
+        id: 4, 
         img: sailmasterII, 
         title: "Sail Master II", 
         description: "Sail-Master II is an app for sailors and water sports’ enthusiasts that have a common goal to share the joy in sailing. This app lets users know if sailing conditions based on current wind parameters are appropriate to enjoy a day out on the water.", 
-        buttons: ["React", "Express", "JWT", "Weather API", "PostgreSQL"], 
+        buttons: ["React", "Express", "JWT", "Weather API", "PostgreSQL", "Surge"], 
         backgroundColor: "var(--cadet-blue-crayola)", 
         liveSite: "https://lighthouse-sailor.surge.sh/", 
         githubRepo: "https://github.com/danveb/sail-master-II", 
@@ -67,7 +54,7 @@ export const projects = [
         rel: "noreferrer noopener", 
     }, 
     {
-        id: 6, 
+        id: 5, 
         img: laptopMain, 
         title: "Check my GitHub", 
         description: "Check my GitHub link to view more projects where I continue to build user-focused apps. Follow the link below!", 

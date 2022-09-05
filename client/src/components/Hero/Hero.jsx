@@ -1,5 +1,4 @@
-// import ioniq5 from "../../assets/projects/ioniq5.png"; 
-import laptop from "../../assets/projects/asador.png"; 
+import laptop from "../../assets/projects/bobaLife.png"; 
 import "./Hero.scss"; 
 
 const Hero = () => {
