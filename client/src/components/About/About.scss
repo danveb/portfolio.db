@@ -6,11 +6,11 @@
     background-color: var(--raisin-black);
     padding: 40px 0; 
 
-    @media screen and(max-width: 768px) {
+    @media screen and (max-width: 768px) {
         padding: 30px 20px; 
     }
 
-    @media screen and(max-width: 480px) {
+    @media screen and (max-width: 480px) {
         padding: 25px 5px; 
     }
 
@@ -21,12 +21,12 @@
         margin: 40px; 
         padding: 30px; 
     
-        @media screen and(max-width: 768px) {
+        @media screen and (max-width: 768px) {
             flex-direction: column; 
             margin: 20px; 
         }
 
-        @media screen and(max-width: 480px) {
+        @media screen and (max-width: 480px) {
             margin: 15px; 
             padding: 25px 10px; 
         }
@@ -44,12 +44,12 @@
                 object-fit: cover; 
                 border-radius: 10px; 
     
-                @media screen and(max-width: 768px) {
+                @media screen and (max-width: 768px) {
                     width: auto; 
                     height: 300px; 
                 }
     
-                @media screen and(max-width: 480px) {
+                @media screen and (max-width: 480px) {
                     height: 250px; 
                 }
             }
@@ -63,7 +63,7 @@
             flex-direction: column;    
             margin: 40px; 
     
-            @media screen and (max-width: 768px) {
+            @media screen and  (max-width: 768px) {
                 margin: 20px 0px; 
             }
     
@@ -76,7 +76,7 @@
                         color: var(--bottle-green); 
                     }
 
-                    @media screen and(max-width: 786px) {
+                    @media screen and (max-width: 786px) {
                         font-size: 22px; 
                     }
                 }
@@ -87,7 +87,7 @@
                     line-height: 30px; 
                     margin: 20px 0;
     
-                    @media screen and(max-width: 768px) {
+                    @media screen and (max-width: 768px) {
                         font-size: 14px; 
                     }
                 }
@@ -107,7 +107,7 @@
                         object-fit: fit; 
                     }
 
-                    @media screen and(max-width: 768px) {
+                    @media screen and (max-width: 768px) {
                         gap: 25px; 
                     }
                 }

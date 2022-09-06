@@ -1,4 +1,5 @@
 import { links } from "../../constants/links"; 
+import { resumeLink } from "../../constants/resume";
 import "./Navbar.scss"; 
 
 const Navbar = ({ menuOpen, setMenuOpen }) => {
@@ -15,7 +16,11 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
                         </li>
                     ))}
                     <li>
-                        <a href="https://drive.google.com/file/d/12SyFoMp7IEL_Vkne9W3Akz5Nt0gB9YvE/view?usp=sharing" rel="noopener noreferrer" target="_blank">resume</a>
+                        {resumeLink.map((link) => (
+                            <div key={link.id}>
+                                <a href={link.url} rel="noopener noreferrer" target="_blank">resume</a>
+                            </div>
+                        ))}
                     </li>
                 </ul>
                 <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>

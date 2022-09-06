@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="hero"
+    id="intro"
+  >
+    <div
+      class="hero-wrapper"
+    >
+      <div
+        class="hero-headline"
+      >
+        <h1>
+          Hi, I'm Danny
+          <span>
+            .
+          </span>
+          <span>
+            Frontend Developer
+            <span>
+              .
+            </span>
+          </span>
+        </h1>
+      </div>
+      <div
+        class="hero-introduction"
+      >
+        <p>
+          I'm passionate about finding ways to efficiently solve complex problems and make a positive difference for today and for tomorrow.
+        </p>
+      </div>
+      <div
+        class="hero-btn"
+      >
+        <a
+          class="btn"
+          href="https://www.linkedin.com/in/daniel-eze-bae"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="hover"
+          />
+          <span>
+            Let's Work Together
+          </span>
+        </a>
+      </div>
+      <div
+        class="hero-laptop"
+      >
+        <img
+          alt="laptop hero"
+          src="bobaLife.png"
+        />
+      </div>
+      <div
+        class="scroll-arrow"
+      >
+        <svg
+          height="30px"
+          width="30px"
+        >
+          <path
+            d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
+            fill="none"
+            stroke="#ffffff"
+            stroke-width="2px"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

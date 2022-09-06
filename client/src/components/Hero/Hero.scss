@@ -7,15 +7,15 @@
     background-color: var(--rich-black); 
     padding: 0 130px; 
 
-    @media screen and(max-width: 1078px) {
+    @media screen and (max-width: 1078px) {
         padding: 0 100px; 
     }
 
-    @media screen and(max-width: 768px) {
+    @media screen and (max-width: 768px) {
         padding: 0 50px; 
     }
 
-    @media screen and(max-width: 480px) {
+    @media screen and (max-width: 480px) {
         padding: 0 30px; 
     }
     
@@ -52,11 +52,11 @@
                     }
                 }
 
-                @media screen and(max-width: 1024px) {
+                @media screen and (max-width: 1024px) {
                     font-size: 56px; 
                 }
                 
-                @media screen and(max-width: 768px) {
+                @media screen and (max-width: 768px) {
                     font-size: 36px; 
                 }
                 
@@ -78,20 +78,20 @@
                 text-align: center; 
                 line-height: 24px; 
         
-                @media screen and(max-width: 768px) {
+                @media screen and (max-width: 768px) {
                     font-size: 16px; 
                 }
                 
-                @media screen and(max-width: 480px) {
+                @media screen and (max-width: 480px) {
                     font-size: 14px; 
                 }
             }
         
-            @media screen and(max-width: 768px) {
+            @media screen and (max-width: 768px) {
                 width: 80%; 
             }
 
-            @media screen and(max-width: 480px) {
+            @media screen and (max-width: 480px) {
                 width: 85%; 
             }
         }
@@ -115,13 +115,13 @@
                 overflow: hidden; 
                 z-index: 1; 
 
-                @media screen and(max-width: 768px) {
+                @media screen and (max-width: 768px) {
                     margin: 15px 0; 
                     padding: 10px 15px; 
                     font-size: 14px; 
                 }
 
-                @media screen and(max-width: 480px) {
+                @media screen and (max-width: 480px) {
                     font-size: 12px; 
                     margin: 10px 0; 
                 }
@@ -158,15 +158,15 @@
                 height: auto; 
                 width: 60vh; 
 
-                @media screen and(max-width: 1024px) {
+                @media screen and (max-width: 1024px) {
                     width: 50vh; 
                 }
 
-                @media screen and(max-width: 768px) {
+                @media screen and (max-width: 768px) {
                     width: 40vh; 
                 }
 
-                @media screen and(max-width: 480px) {
+                @media screen and (max-width: 480px) {
                     width: 35vh; 
                 }
             }
