@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`matches snapshot 1`] = `
+exports[`Projects component matches snapshot 1`] = `
 <DocumentFragment>
   <div
     class="projects"
@@ -242,7 +242,7 @@ exports[`matches snapshot 1`] = `
             class="card-body"
           >
             <p>
-              App designed for users who want to search deliveries of 2022 Hyundai IONIQ 5 to local dealerships. User can fill in the zipcode and radius. Data is fetched from Hyundai's API and key details are displayed on a table.
+              App designed for users who want to search deliveries of 2022 Hyundai IONIQ 5 to local dealerships. User can fill in the zipcode and radius for searching. Data is fetched from Hyundai USA's API and key details are displayed on a table.
             </p>
           </div>
           <div
@@ -332,7 +332,7 @@ exports[`matches snapshot 1`] = `
             class="card-body"
           >
             <p>
-              Sail-Master II is an app for sailors and water sports’ enthusiasts that have a common goal to share the joy in sailing. This app lets users know if sailing conditions based on current wind parameters are appropriate to enjoy a day out on the water.
+              App built for sailors and water sports’ enthusiasts that have a common goal to share the joy in sailing. App informs sailing conditions based on current wind parameters; it makes it the perfect companion to enjoy the day on the water.
             </p>
           </div>
           <div

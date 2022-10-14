@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`matches snapshot 1`] = `
+exports[`Navbar component matches snapshot 1`] = `
 <DocumentFragment>
   <div
     class="navbar undefined"
@@ -46,13 +46,15 @@ exports[`matches snapshot 1`] = `
           </a>
         </li>
         <li>
-          <a
-            href="https://drive.google.com/file/d/12SyFoMp7IEL_Vkne9W3Akz5Nt0gB9YvE/view?usp=sharing"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            resume
-          </a>
+          <div>
+            <a
+              href="https://drive.google.com/file/d/1rzAwaL2VnlZ0h_2DsqV9jnjJREGaycxI/view?usp=sharing"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              resume
+            </a>
+          </div>
         </li>
       </ul>
       <div

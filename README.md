@@ -22,6 +22,12 @@ React app to showcase my portfolio with latest projects and share with the world
 <img src="https://media.giphy.com/media/yhXtpxNdL2Bvo7QBx7/giphy.gif">
 
 ---
+
+## Figma (Prototype)
+
+<img src="./client/src/assets/prototype/Frame%201.png" alt="Figma design prototype">
+
+---
 ## Project structure 
 
 ```sh
