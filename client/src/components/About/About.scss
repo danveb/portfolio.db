@@ -1,112 +1,74 @@
 .about {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    flex-direction: column; 
-    background-color: var(--raisin-black);
-    padding: 40px 0; 
+    background-color: var(--rich-black); 
 
-    @media screen and (max-width: 768px) {
-        padding: 30px 20px; 
-    }
-
-    @media screen and (max-width: 480px) {
-        padding: 25px 5px; 
-    }
-
-    .about-wrapper {
-        flex: 1;
-        display: flex; 
+    .about__wrapper {
         max-width: 1200px; 
-        margin: 40px; 
-        padding: 30px; 
-    
-        @media screen and (max-width: 768px) {
-            flex-direction: column; 
-            margin: 20px; 
-        }
+        height: 100%; 
+        margin: 0 auto; 
 
-        @media screen and (max-width: 480px) {
-            margin: 15px; 
-            padding: 25px 10px; 
-        }
-    
-        .about-left {
-            flex: 1; 
+        .about__main {
             display: flex; 
+            flex-direction: column; 
             justify-content: center; 
             align-items: center; 
-            flex-direction: column; 
-    
-            img {
-                height: auto; 
-                width: 100%; 
-                object-fit: cover; 
-                border-radius: 10px; 
-    
-                @media screen and (max-width: 768px) {
-                    width: auto; 
-                    height: 300px; 
-                }
-    
-                @media screen and (max-width: 480px) {
-                    height: 250px; 
-                }
-            }
-        }
-    
-        .about-right {
-            color: var(--alice-blue); 
-            flex: 1; 
-            display: flex; 
-            justify-content: center; 
-            flex-direction: column;    
-            margin: 40px; 
-    
-            @media screen and  (max-width: 768px) {
-                margin: 20px 0px; 
-            }
-    
-            .about-title {
-                h3 {
-                    font-size: 26px; 
-                    font-weight: bold; 
+            max-width: 590px; 
+            margin: auto; 
 
+
+            .about__title {
+                margin: 40px; 
+            
+                h3 {
+                    color: #fff; 
+                    font-size: 40px; 
+                    font-weight: bold; 
+            
                     span {
                         color: var(--bottle-green); 
                     }
-
-                    @media screen and (max-width: 786px) {
-                        font-size: 22px; 
-                    }
                 }
             }
-    
-            .about-description {
+            
+            .about__img {
+                max-height: 450px; 
+                display: flex; 
+                justify-content: center; 
+            
+                img {
+                    width: 50%; 
+                    height: 50%; 
+                    object-fit: cover; 
+                }
+            }
+            
+            .about__story {
+                background-color: #fff; 
+                margin: 40px 0; 
+                padding: 25px; 
+            
                 p {
-                    line-height: 30px; 
-                    margin: 20px 0;
-    
-                    @media screen and (max-width: 768px) {
-                        font-size: 14px; 
-                    }
+                    font-size: 14px; 
+                    color: #393939;  
+                    margin-bottom: 15px;        
                 }
             }
-
-            .about-skills {
+            
+            .about__skills {
+                margin-bottom: 40px;
+            
                 ul {
                     display: flex; 
                     align-items: center; 
                     justify-content: center; 
                     flex-wrap: wrap; 
                     gap: 30px; 
-
+            
                     img {
                         height: 40px; 
                         width: 40px; 
                         object-fit: fit; 
                     }
-
+            
                     @media screen and (max-width: 768px) {
                         gap: 25px; 
                     }

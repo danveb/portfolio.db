@@ -4,11 +4,11 @@ import "./Footer.scss";
 const Footer = () => {
     return (
         <div className="footer">
-            <div className="footer-wrapper">
-                <div className="footer-headline">
+            <div className="footer__wrapper">
+                <div className="footer__title">
                     <h1>Social Links<span>.</span></h1>
                 </div>
-                <div className="footer-social">
+                <div className="f__socials">
                     <ul>
                         {socials.map((social) => (
                             <li key={social.id}>
@@ -17,7 +17,7 @@ const Footer = () => {
                         ))}
                     </ul>
                 </div>
-                <div className="footer-mr">
+                <div className="footer__mr">
                     <p>Portfolio design & development - Danny Bae</p>
                 </div>
             </div>

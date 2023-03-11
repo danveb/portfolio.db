@@ -1,63 +1,43 @@
 .contact {
-    height: calc(100vh - 50px); 
-    display: flex; 
-    flex-direction: column; 
     background-color: var(--alice-blue); 
 
-    .container {
-        height: 70vh; 
-        margin: 30px 30px 0 30px; 
-        background-color: var(--alice-blue); 
+    .contact__wrapper {
+        max-width: 1200px; 
+        height: 100%; 
+        margin: 30px auto; 
 
-        .contact-wrapper {
-            height: 100%; 
-            padding: 40px 60px; 
+        .contact__main {
             display: flex; 
+            flex-direction: column; 
             justify-content: center; 
             align-items: center; 
-            flex-direction: column; 
+            max-width: 590px; 
+            margin: auto; 
 
-            @media screen and (max-width: 480px) {
-                padding: 20px; 
-            }
-
-            .contact-headline {
-
+            .contact__title {
                 h1 {
                     color: var(--raisin-black); 
-                    font-size: 40px; 
-                    margin: 10px 0;
+                    font-size: 38px; 
+                    margin: 10px 0; 
 
                     span {
                         color: var(--bottle-green); 
                     }
-
-                    @media screen and (max-width: 768px) {
-                        font-size: 30px; 
-                    }
-                    
-                    @media screen and (max-width: 480px) {
-                        font-size: 20px; 
-                    }
                 }
             }
 
-            .contact-introduction {
-                max-width: 768px; 
-                width: 50%; 
-
-                @media screen and (max-width: 768px) {
-                    width: 75%; 
-                }
-                
-                @media screen and (max-width: 480px) {
-                    width: 100%; 
-                }
+            .contact__intro {
+                width: 75%; 
+                color: var(--raisin-black); 
+                display: flex; 
+                flex-direction: column; 
+                justify-content: center; 
+                align-items: center; 
 
                 p {
                     color: var(--cadet-blue-crayola); 
                     text-align: center; 
-                    margin: 10px 0;
+                    margin: 20px 0;
                     font-size: 18px; 
 
                     @media screen and (max-width: 768px) {
@@ -68,32 +48,28 @@
                         font-size: 14px; 
                     }
                 }
-            }
 
-            .cta {
-                display: flex; 
-                justify-content: center; 
-                align-items: center; 
-                flex-direction: row; 
-                margin: 20px 0; 
-                border: 1px solid var(--bottle-green); 
-                border-radius: 55px; 
-                padding: 15px 25px; 
-                background-color: var(--raisin-black); 
-                color: var(--alice-blue); 
-                text-transform: uppercase; 
-                cursor: pointer; 
-                text-decoration: none; 
-                
-                @media screen and (max-width: 768px) {
-                    margin: 15px 0; 
-                    padding: 10px 20px; 
-                    font-size: 14px; 
-                }
-                
-                @media screen and (max-width: 480px) {
-                    font-size: 12px; 
-                    margin: 10px 0;
+                .cta {
+                    margin: 20px 0; 
+                    border: 1px solid var(--bottle-green); 
+                    border-radius: 55px; 
+                    padding: 15px 25px; 
+                    background-color: var(--raisin-black); 
+                    color: var(--alice-blue); 
+                    text-transform: uppercase; 
+                    cursor: pointer; 
+                    text-decoration: none; 
+                    
+                    @media screen and (max-width: 768px) {
+                        margin: 15px 0; 
+                        padding: 10px 20px; 
+                        font-size: 14px; 
+                    }
+                    
+                    @media screen and (max-width: 480px) {
+                        font-size: 12px; 
+                        margin: 10px 0;
+                    }
                 }
             }
         }

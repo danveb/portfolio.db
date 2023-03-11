@@ -1,12 +1,25 @@
 import asador from "../assets/projects/asador.png"; 
 import bobaLife from "../assets/projects/bobaLife.png"; 
 import ioniq5 from "../assets/projects/ioniq5.png"; 
-import sailmasterII from "../assets/projects/sailmasterII.png"; 
+import sailly from "../assets/projects/sail-ly.png"; 
+// import sailmasterII from "../assets/projects/sailmasterII.png"; 
 import laptopMain from "../assets/projects/laptop1.png"; 
 
 export const projects = [
     {
         id: 1, 
+        img: sailly, 
+        title: "sail.ly", 
+        description: "Dream in open waters. SAIL.LY is a web app for beginner-to-experienced sailors that want to enjoy a day out on the water. App allows users to check on their favorite sailing clubs for sailing conditions based on real-time weather data, integrated with Weather API.",
+        buttons: ["React", "CSS", "Node", "Express", "PostgreSQL", "Weather API", "MapboxGL API", "Netlify"], 
+        backgroundColor: "var(--maximum-yellow-red)", 
+        liveSite: "https://sail-ly.netlify.app", 
+        githubRepo: "https://github.com/danveb/sail.ly", 
+        target: "_blank", 
+        rel: "noreferrer noopener", 
+    }, 
+    {
+        id: 2, 
         img: bobaLife, 
         title: "bobaLife", 
         description: "Who enjoys sipping an ice-cold boba milk tea at any time of the day? bobaLife is an e-commerce web app designed for a fictitous boba shop. This app incorporates working cart/checkout process and integration of Stripe mobile payments.",
@@ -18,7 +31,7 @@ export const projects = [
         rel: "noreferrer noopener", 
     }, 
     {
-        id: 2, 
+        id: 3, 
         img: asador, 
         title: "asador", 
         description: "Ever wondered about asado (barbeque) in Buenos Aires? Asador is all about sharing the joy of the best parrillas (steakhouses). Users are greeted with a live map with pins. Signing up for an account allows users to pin their favorite parrillas.", 
@@ -30,7 +43,7 @@ export const projects = [
         rel: "noreferrer noopener", 
     }, 
     {
-        id: 3, 
+        id: 4, 
         img: ioniq5, 
         title: "ioniq5 Lookup", 
         description: "App designed for users who want to search deliveries of 2022 Hyundai IONIQ 5 to local dealerships. User can fill in the zipcode and radius for searching. Data is fetched from Hyundai USA's API and key details are displayed on a table.", 
@@ -41,18 +54,18 @@ export const projects = [
         target: "_blank", 
         rel: "noreferrer noopener", 
     }, 
-    {
-        id: 4, 
-        img: sailmasterII, 
-        title: "Sail Master II", 
-        description: "App built for sailors and water sports’ enthusiasts that have a common goal to share the joy in sailing. App informs sailing conditions based on current wind parameters; it makes it the perfect companion to enjoy the day on the water.", 
-        buttons: ["React", "Express", "JWT", "Weather API", "PostgreSQL", "Surge"], 
-        backgroundColor: "var(--cadet-blue-crayola)", 
-        liveSite: "https://lighthouse-sailor.surge.sh/", 
-        githubRepo: "https://github.com/danveb/sail-master-II", 
-        target: "_blank", 
-        rel: "noreferrer noopener", 
-    }, 
+    // {
+    //     id: 5, 
+    //     img: sailmasterII, 
+    //     title: "Sail Master II", 
+    //     description: "App built for sailors and water sports’ enthusiasts that have a common goal to share the joy in sailing. App informs sailing conditions based on current wind parameters; it makes it the perfect companion to enjoy the day on the water.", 
+    //     buttons: ["React", "Express", "JWT", "Weather API", "PostgreSQL", "Surge"], 
+    //     backgroundColor: "var(--cadet-blue-crayola)", 
+    //     liveSite: "https://lighthouse-sailor.surge.sh/", 
+    //     githubRepo: "https://github.com/danveb/sail-master-II", 
+    //     target: "_blank", 
+    //     rel: "noreferrer noopener", 
+    // }, 
     {
         id: 5, 
         img: laptopMain, 

@@ -1,31 +1,18 @@
 .hero {
-    height: calc(100vh - 50px); 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    flex-direction: column; 
+    max-height: calc(100vh - 50px); 
+    height: 100%; 
     background-color: var(--rich-black); 
-    padding: 0 130px; 
-
-    @media screen and (max-width: 1078px) {
-        padding: 0 100px; 
-    }
-
-    @media screen and (max-width: 768px) {
-        padding: 0 50px; 
-    }
-
-    @media screen and (max-width: 480px) {
-        padding: 0 30px; 
-    }
     
-    .hero-wrapper {
+    .hero__wrapper {
+        max-width: 1200px; 
+        height: 100%; 
+        margin: 0 auto; 
         display: flex; 
         justify-content: center; 
         align-items: center; 
         flex-direction: column; 
         
-        .hero-headline {
+        .hero__headline {
             color: var(--alice-blue); 
             font-family: "Kaisei Opti", sans-serif; 
             
@@ -66,8 +53,8 @@
             }
         }
 
-        .hero-introduction {
-            width: 70%; 
+        .hero__introduction {
+            width: 50%; 
             color: var(--alice-blue); 
             
             p {
@@ -97,12 +84,12 @@
         }
     
     
-        .hero-btn {
+        .hero__btn {
             display: flex; 
             justify-content: center; 
             align-items: center; 
 
-            .btn {
+            .cta {
                 position: relative; 
                 margin: 20px 0; 
                 border: 1px solid var(--bottle-green); 
@@ -149,7 +136,7 @@
             }
         }
 
-        .hero-laptop {
+        .hero__laptop {
             display: flex; 
             justify-content: center; 
             align-items: center; 
@@ -174,8 +161,8 @@
 
         .scroll-arrow { 
             position: absolute; 
-            bottom: 50px; 
-            left: 49%; 
+            bottom: 15px; 
+            left: 48%; 
             transform: translateX(-50%); 
             animation: fadeBounce 2.3s infinite; 
         }

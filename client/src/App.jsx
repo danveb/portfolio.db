@@ -1,5 +1,5 @@
 import { useState } from "react"; 
-import { Navbar, Menu, Hero, About, Projects, Contact } from "./components/index"; 
+import { Navbar, Menu, Hero, About, Projects, Contact, Footer } from "./components/index"; 
 import "./App.scss"; 
 
 const App = () => {
@@ -13,6 +13,7 @@ const App = () => {
                 <About />
                 <Projects />
                 <Contact />
+                <Footer />
             </div>
         </div>
     )
