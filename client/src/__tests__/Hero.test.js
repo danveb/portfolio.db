@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react"; 
-import Hero from "../components/Hero/Hero"; 
+import { Hero } from "../components";
 
 describe("Hero component", () => {
     // smoke test

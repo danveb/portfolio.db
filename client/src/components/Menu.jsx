@@ -1,7 +1,7 @@
-import { links } from "../../constants/links";
-import { socials } from "../../constants/socials";
-import { resumeLink } from "../../constants/resume";
-import "./Menu.scss"; 
+import { links } from "../constants/links";
+import { socials } from "../constants/socials";
+import { resumeLink } from "../constants/resume";
+import "../styles/Menu.scss"; 
 
 const Menu = ({ menuOpen, setMenuOpen }) => {
     return (

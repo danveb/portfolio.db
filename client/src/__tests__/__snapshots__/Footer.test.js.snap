@@ -6,10 +6,10 @@ exports[`Footer component matches snapshot 1`] = `
     class="footer"
   >
     <div
-      class="footer-wrapper"
+      class="footer__wrapper"
     >
       <div
-        class="footer-headline"
+        class="footer__title"
       >
         <h1>
           Social Links
@@ -19,7 +19,7 @@ exports[`Footer component matches snapshot 1`] = `
         </h1>
       </div>
       <div
-        class="footer-social"
+        class="f__socials"
       >
         <ul>
           <li>
@@ -82,7 +82,7 @@ exports[`Footer component matches snapshot 1`] = `
         </ul>
       </div>
       <div
-        class="footer-mr"
+        class="footer__mr"
       >
         <p>
           Portfolio design & development - Danny Bae

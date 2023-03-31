@@ -1,5 +1,5 @@
-import { projects } from "../../constants/projects";
-import "./Projects.scss"; 
+import { projects } from "../constants/projects";
+import "../styles/Projects.scss"; 
 
 const Projects = () => {
     return (

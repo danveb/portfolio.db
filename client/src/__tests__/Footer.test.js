@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react"; 
-import Footer from "../components/Footer/Footer"; 
+import { Footer } from "../components";
 
 describe("Footer component", () => {
     // smoke test

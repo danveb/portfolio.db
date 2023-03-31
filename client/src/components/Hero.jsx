@@ -1,5 +1,5 @@
-import laptop from "../../assets/projects/sail-ly.png"; 
-import "./Hero.scss"; 
+import laptop from "../assets/projects/sail-ly.png"; 
+import "../styles/Hero.scss"; 
 
 const Hero = () => {
     return (

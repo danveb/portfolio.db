@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react"; 
-import Contact from "../components/Contact/Contact"; 
+import { Contact } from "../components";
 
 describe("Contact component", () => {
     // smoke test

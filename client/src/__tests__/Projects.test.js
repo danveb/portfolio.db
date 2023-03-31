@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react"; 
-import Projects from "../components/Projects/Projects"; 
+import { Projects } from "../components";
 
 describe("Projects component", () => {
     // smoke test

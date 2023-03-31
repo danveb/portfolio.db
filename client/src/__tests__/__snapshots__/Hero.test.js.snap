@@ -7,10 +7,10 @@ exports[`Hero component matches snapshot 1`] = `
     id="intro"
   >
     <div
-      class="hero-wrapper"
+      class="hero__wrapper"
     >
       <div
-        class="hero-headline"
+        class="hero__headline"
       >
         <h1>
           Hi, I'm Danny
@@ -26,17 +26,17 @@ exports[`Hero component matches snapshot 1`] = `
         </h1>
       </div>
       <div
-        class="hero-introduction"
+        class="hero__introduction"
       >
         <p>
           I'm passionate about finding ways to efficiently solve complex problems and make a positive difference for today and for tomorrow.
         </p>
       </div>
       <div
-        class="hero-btn"
+        class="hero__btn"
       >
         <a
-          class="btn"
+          class="cta"
           href="https://www.linkedin.com/in/daniel-eze-bae"
           rel="noopener noreferrer"
           target="_blank"
@@ -50,11 +50,11 @@ exports[`Hero component matches snapshot 1`] = `
         </a>
       </div>
       <div
-        class="hero-laptop"
+        class="hero__laptop"
       >
         <img
           alt="laptop hero"
-          src="bobaLife.png"
+          src="sail-ly.png"
         />
       </div>
       <div

@@ -1,5 +1,5 @@
-import { socials } from "../../constants/socials"; 
-import "./Footer.scss"; 
+import { socials } from "../constants/socials"; 
+import "../styles/Footer.scss"; 
 
 const Footer = () => {
     return (

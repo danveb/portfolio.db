@@ -1,6 +1,6 @@
-import profile from "../../assets/profile/profile-bw.png"; 
-import { logos } from "../../constants/logos"; 
-import "./About.scss"; 
+import profile from "../assets/profile/profile-bw.png"; 
+import { logos } from "../constants/logos"; 
+import "../styles/About.scss"; 
 
 const About = () => {
     return (

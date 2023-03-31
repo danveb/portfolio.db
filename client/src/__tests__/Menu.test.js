@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react"; 
-import Menu from "../components/Menu/Menu"; 
+import { Menu } from "../components"; 
 
 describe("Menu component", () => {
     // smoke test

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import { links } from "../../constants/links"; 
-import { resumeLink } from "../../constants/resume";
-import "./Navbar.scss"; 
+import { links } from "../constants/links"; 
+import { resumeLink } from "../constants/resume";
+import "../styles/Navbar.scss"; 
 
 const Navbar = ({ menuOpen, setMenuOpen }) => {
     // useEffect 
