@@ -1,55 +1,61 @@
 .footer {
-    background-color: var(--rich-black); 
-    
+    height: 50px; 
+    width: 100%; 
+    background-color: var(--raisin-black); 
+
     .footer__wrapper {
         max-width: 1200px; 
         height: 100%; 
         width: 100%; 
-        padding: 25px; 
+        margin: 0 auto; 
 
-        .footer__title {
+        // .footer__head {
+        //     color: var(--alice-blue); 
             
-            h1 {
-                color: var(--alice-blue); 
-                font-size: 34px; 
+        //     h1 {
+        //         font-size: 30px; 
 
-                span {
-                    color: var(--bottle-green); 
-                }
+        //         span {
+        //             color: var(--bottle-green)
+        //         }
+        //     }
+        // }
 
-                @media screen and (max-width: 768px) {
-                    font-size: 30px; 
-                }
-                
-                @media screen and (max-width: 480px) {
-                    font-size: 20px; 
+        .footer__main {
+            display: flex; 
+            justify-content: space-around; 
+            align-items: center; 
+            height: 100%; 
+
+            .footer__copyright {
+                color: #777; 
+
+                p {
+                    font-size: 11px; 
                 }
             }
-        }
 
-        .f__socials {
-            
-            ul {
+            .footer__social__icons {
+                ul {
+                    display: flex; 
+                    justify-content: space-between; 
+                    gap: 20px; 
 
-                li {
-                    padding: 10px 0; 
-                    
-                    a {
-                        color: #fff; 
-                        
-                        svg {
-                            height: 20px; 
-                            width: 20px; 
+                    li {
+                        list-style: none; 
+                        a {
+                            img {
+                                color: var(--alice-blue); 
+                                width: 25px; 
+                                height: 25px; 
+                                cursor: pointer; 
+                            }
                         }
+
+
                     }
                 }
-            }
-        }
-
-        .footer__mr {
-            p {
-                font-size: 10px; 
-                color: var(--cadet-blue-crayola); 
+                
             }
         }
     }

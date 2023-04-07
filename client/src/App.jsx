@@ -1,22 +1,22 @@
 import { useState } from "react"; 
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Navbar, Menu, Hero, About, Projects, Contact, Footer } from "./components"; 
-import "./App.scss"; 
 
-const App = () => {
+export default function App() {
     const [menuOpen, setMenuOpen] = useState(false)
     return (
         <div className="app">
-            <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-            <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-            <div className="sections">
-                <Hero />
-                <About />
-                <Projects />
-                <Contact />
+            <Router>
+                <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> 
+                <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> 
+                <Routes>
+                    <Route path="/" element={<Hero />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/projects" element={<Projects />} />
+                    <Route path="/contact" element={<Contact />} />
+                </Routes>
                 <Footer />
-            </div>
+            </Router>
         </div>
     )
 }
-
-export default App

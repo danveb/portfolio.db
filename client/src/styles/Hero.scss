@@ -1,27 +1,209 @@
-.hero {
-    max-height: calc(100vh - 50px); 
-    height: 100%; 
-    background-color: var(--rich-black); 
+// .hero {
+//     max-height: calc(100vh - 50px); 
+//     height: 100%; 
+//     background-color: var(--rich-black); 
     
-    .hero__wrapper {
-        max-width: 1200px; 
-        height: 100%; 
-        margin: 0 auto; 
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-        flex-direction: column; 
+//     .hero__wrapper {
+//         max-width: 1200px; 
+//         height: 100%; 
+//         margin: 0 auto; 
+//         display: flex; 
+//         justify-content: center; 
+//         align-items: center; 
+//         flex-direction: column; 
         
-        .hero__headline {
+//         .hero__headline {
+//             color: var(--alice-blue); 
+//             font-family: "Kaisei Opti", sans-serif; 
+            
+//             h1 {
+//                 font-family: inherit; 
+//                 font-size: 60px; 
+//                 font-weight: 400; 
+//                 margin: 10px 0; 
+//                 text-align: center; 
+                
+//                 span {
+//                     font-family: inherit; 
+                    
+//                     &:first-child {
+//                         color: var(--bottle-green); 
+//                     }
+
+//                     &:nth-child(2) {
+//                         display: block; 
+//                     }
+
+//                     &:nth-child(3) {
+//                         color: var(--bottle-green); 
+//                     }
+//                 }
+
+//                 @media screen and (max-width: 1024px) {
+//                     font-size: 56px; 
+//                 }
+                
+//                 @media screen and (max-width: 768px) {
+//                     font-size: 36px; 
+//                 }
+                
+//                 @media screen and (max-width: 480px) {
+//                     font-size: 30px; 
+//                 }
+//             }
+//         }
+
+//         .hero__introduction {
+//             width: 50%; 
+//             color: var(--alice-blue); 
+            
+//             p {
+//                 color: inherit; 
+//                 font-size: 18px; 
+//                 letter-spacing: 0.5px; 
+//                 margin: 10px 0; 
+//                 text-align: center; 
+//                 line-height: 24px; 
+        
+//                 @media screen and (max-width: 768px) {
+//                     font-size: 16px; 
+//                 }
+                
+//                 @media screen and (max-width: 480px) {
+//                     font-size: 14px; 
+//                 }
+//             }
+        
+//             @media screen and (max-width: 768px) {
+//                 width: 80%; 
+//             }
+
+//             @media screen and (max-width: 480px) {
+//                 width: 85%; 
+//             }
+//         }
+    
+    
+//         .hero__btn {
+//             display: flex; 
+//             justify-content: center; 
+//             align-items: center; 
+
+//             .cta {
+//                 position: relative; 
+//                 margin: 20px 0; 
+//                 border: 1px solid var(--bottle-green); 
+//                 border-radius: 55px; 
+//                 padding: 15px 20px; 
+//                 color: var(--alice-blue); 
+//                 cursor: pointer; 
+//                 text-decoration: none; 
+//                 font-weight: 700; 
+//                 overflow: hidden; 
+//                 z-index: 1; 
+
+//                 @media screen and (max-width: 768px) {
+//                     margin: 15px 0; 
+//                     padding: 10px 15px; 
+//                     font-size: 14px; 
+//                 }
+
+//                 @media screen and (max-width: 480px) {
+//                     font-size: 12px; 
+//                     margin: 10px 0; 
+//                 }
+
+//                 &:hover span{
+//                     color: #000; 
+//                 }
+
+//                 .hover {
+//                     position: absolute; 
+//                     top: 0; 
+//                     left: 0; 
+//                     width: 100%; 
+//                     height: 100%; 
+//                     background-color: #fff; 
+//                     color: #000; 
+//                     z-index: -1; 
+//                     transform: translateY(100%); 
+//                     transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1); 
+//                 }
+
+//                 &:hover .hover {
+//                     transform: translateY(0); 
+//                 }
+//             }
+//         }
+
+//         .hero__laptop {
+//             display: flex; 
+//             justify-content: center; 
+//             align-items: center; 
+//             position: relative; 
+
+//             img {
+//                 height: auto; 
+//                 width: 60vh; 
+
+//                 @media screen and (max-width: 1024px) {
+//                     width: 50vh; 
+//                 }
+
+//                 @media screen and (max-width: 768px) {
+//                     width: 40vh; 
+//                 }
+
+//                 @media screen and (max-width: 480px) {
+//                     width: 35vh; 
+//                 }
+//             }
+//         }
+
+//         .scroll-arrow { 
+//             position: absolute; 
+//             bottom: 15px; 
+//             left: 49%; 
+//             transform: translateX(-50%); 
+//             animation: fadeBounce 2.3s infinite; 
+//         }
+//     }
+// }
+
+.hero {
+    height: calc(100vh - 50px); 
+    background-color: var(--rich-black); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+
+    .hero__wrapper {
+        max-width: 720px; 
+        margin: 0 auto; 
+        padding: 0 16px;
+
+        .hero__head {
+            margin: 25px 0; 
             color: var(--alice-blue); 
             font-family: "Kaisei Opti", sans-serif; 
-            
+
             h1 {
-                font-family: inherit; 
                 font-size: 60px; 
                 font-weight: 400; 
                 margin: 10px 0; 
                 text-align: center; 
+                
+                @media screen and (max-width: 1024px) {
+                    font-size: 56px; 
+                }
+                
+                @media screen and (max-width: 768px) {
+                    font-size: 36px; 
+                }
+                
+                @media screen and (max-width: 480px) {
+                    font-size: 30px; 
+                }
                 
                 span {
                     font-family: inherit; 
@@ -38,52 +220,20 @@
                         color: var(--bottle-green); 
                     }
                 }
-
-                @media screen and (max-width: 1024px) {
-                    font-size: 56px; 
-                }
-                
-                @media screen and (max-width: 768px) {
-                    font-size: 36px; 
-                }
-                
-                @media screen and (max-width: 480px) {
-                    font-size: 30px; 
-                }
             }
         }
 
-        .hero__introduction {
-            width: 50%; 
+        .hero__intro {
             color: var(--alice-blue); 
-            
-            p {
-                color: inherit; 
-                font-size: 18px; 
-                letter-spacing: 0.5px; 
-                margin: 10px 0; 
-                text-align: center; 
-                line-height: 24px; 
-        
-                @media screen and (max-width: 768px) {
-                    font-size: 16px; 
-                }
-                
-                @media screen and (max-width: 480px) {
-                    font-size: 14px; 
-                }
-            }
-        
-            @media screen and (max-width: 768px) {
-                width: 80%; 
-            }
 
-            @media screen and (max-width: 480px) {
-                width: 85%; 
+            p {
+                margin: 10px; 
+                font-size: 18px; 
+                line-height: 29px; 
+                text-align: center; 
             }
         }
-    
-    
+
         .hero__btn {
             display: flex; 
             justify-content: center; 
@@ -140,6 +290,7 @@
             display: flex; 
             justify-content: center; 
             align-items: center; 
+            position: relative; 
 
             img {
                 height: auto; 
@@ -159,12 +310,12 @@
             }
         }
 
-        .scroll-arrow { 
+        .hero__arrow {
             position: absolute; 
-            bottom: 15px; 
-            left: 48%; 
+            bottom: 0px; 
+            left: 49%; 
             transform: translateX(-50%); 
-            animation: fadeBounce 2.3s infinite; 
+            animation: fadeBounce 2s infinite; 
         }
     }
 }

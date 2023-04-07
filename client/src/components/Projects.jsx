@@ -1,7 +1,7 @@
 import { projects } from "../constants/projects";
 import "../styles/Projects.scss"; 
 
-const Projects = () => {
+export default function Project() {
     return (
         <div id="projects" className="projects">
             <div className="projects__wrapper">
@@ -40,5 +40,3 @@ const Projects = () => {
         </div>
     )
 }
-
-export default Projects

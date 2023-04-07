@@ -1,6 +1,6 @@
-import GitHubIcon from "@mui/icons-material/GitHub"; 
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
+import GitHub from "../assets/socials/github.svg"; 
+import LinkedIn from "../assets/socials/linkedin.svg"; 
+import Mailbox from "../assets/socials/mailbox.svg"; 
 
 export const socials = [
     {
@@ -8,20 +8,23 @@ export const socials = [
         url: "https://www.github.com/danveb", 
         target: "_blank", 
         rel: "noreferrer noopener", 
-        icon: GitHubIcon, 
+        img: GitHub, 
+        alt: "social icon",
     },
     {
         id: 2, 
         url: "https://www.linkedin.com/in/daniel-eze-bae", 
         target: "_blank", 
         rel: "noreferrer noopener", 
-        icon: LinkedInIcon, 
+        img: LinkedIn, 
+        alt: "social icon",
     },
     {
         id: 3, 
         url: "mailto:danibae91@gmail.com", 
         target: "_blank", 
         rel: "noreferrer noopener", 
-        icon: AlternateEmailIcon, 
+        img: Mailbox, 
+        alt: "social icon",
     },
 ]; 
