@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500;700&family=Playfair+Display:wght@400;500;700&family=Ibarra+Real+Nova:wght@400;500;600&family=Space+Grotesk:wght@300;400;500&family=Mulish:wght@200;300;400&family=Ubuntu:wght@300;400&family=Quicksand:wght@100;200;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500;700&family=Playfair+Display:wght@400;500;700&family=Ibarra+Real+Nova:wght@400;500;600&family=Space+Grotesk:wght@300;400;500&family=Mulish:wght@200;300;400;600;700;800&family=Ubuntu:wght@300;400&family=Quicksand:wght@100;200;300;400;500;700&display=swap");
 
 :root {
     --font-base: "Mulish", "Kaisei Opti", "Ibarra Real Nova", "Space Grotesk", "Playfair Display", "Ubuntu", "Quicksand", sans-serif;
@@ -28,10 +28,18 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    overflow-x: hidden; 
     font-family: var(--font-base); 
 }
 
 body {
     background-color: var(--rich-black); 
+}
+
+.dot--green {
+    font-family: "Mulish", sans-serif; 
+    color: var(--bottle-green); 
+}
+
+.bold {
+    font-weight: 700; 
 }

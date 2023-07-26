@@ -1,6 +1,6 @@
 import "../styles/Contact.scss"; 
 
-const Contact = () => {  
+export default function Contact() {
     return (
         <div id="contact" className="contact">
             <div className="contact__wrapper">
@@ -17,5 +17,3 @@ const Contact = () => {
         </div>
     )
 }
-
-export default Contact

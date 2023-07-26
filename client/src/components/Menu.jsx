@@ -1,34 +1,37 @@
+import { Link } from "react-router-dom";
 import { links } from "../constants/links";
-import { socials } from "../constants/socials";
+import { menuSocials } from "../constants/menu";
 import { resumeLink } from "../constants/resume";
-import "../styles/Menu.scss"; 
+import "../styles/Menu.css"; 
 
-const Menu = ({ menuOpen, setMenuOpen }) => {
+export default function Menu({ menuOpen, setMenuOpen }) {
     return (
-        <div className={"menu " + (menuOpen && "active")}>
-            <ul>
-                {links.map((link)=> (
-                    <li key={link.id} onClick={()=> setMenuOpen(!menuOpen)}>
-                        <a href={link.url}>{link.text}</a>
-                    </li>
-                ))}
-                <li>
-                    {resumeLink.map((link) => (
-                        <div key={link.id}>
-                            <a href={link.url} rel="noopener noreferrer" target="_blank">resume</a>
-                        </div>
+        <nav className={"menu__nav " + (menuOpen && "active")}>
+            <div className="menu">
+                <ul>
+                    {links.map((link)=> (
+                        <li key={link.id} onClick={()=> setMenuOpen(!menuOpen)}>
+                            <Link to={link.url}>{link.text}</Link>
+                        </li>
                     ))}
-                </li>
-            </ul>
-            <ul>
-                {socials.map((social) => (
-                    <li key={social.id}>
-                        <a href={social.url} target={social.target} rel={social.rel} className="social">{<social.icon />}</a>
+                    <li>
+                        {resumeLink.map((link) => (
+                            <div key={link.id}>
+                                <Link to={link.url} rel="noopener noreferrer" target="_blank">resume</Link>
+                            </div>
+                        ))}
                     </li>
-                ))}
-            </ul>
-        </div>
+                </ul>
+                <ul>
+                    {menuSocials.map((social) => (
+                        <li key={social.id}>
+                            <Link to={social.url} target={social.target} rel={social.rel}>
+                                <img className="social" src={social.img} alt={social.alt} />
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </nav>
     )
 }
-
-export default Menu

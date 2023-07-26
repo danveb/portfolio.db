@@ -1,0 +1,124 @@
+header {
+  position: sticky; 
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+  z-index: 3; 
+  transition: all 0.4s ease-out; 
+  background-color: var(--rich-black);
+}
+
+.navbar {
+  height: 50px; 
+  width: 100%; 
+}
+
+.navbar__wrapper {
+  height: 100%; 
+  width: 100%; 
+  max-width: 768px; 
+  margin: 0 auto; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.navbar__left .navbar__logo {
+  text-decoration: none; 
+  color: #fff; 
+  font-size: 26px; 
+}
+
+.navbar__left span {
+  color: var(--bottle-green); 
+}
+
+.navbar__mid ul {
+  display: flex; 
+  gap: 35px; 
+  align-items: center; 
+}
+
+.navbar__mid li {
+  list-style: none; 
+}
+
+.navbar__mid a {
+  text-decoration: none; 
+  color: #fff; 
+  background: linear-gradient(0deg, dodgerblue, dodgerblue) no-repeat right bottom / 0 var(--bg-h);
+  transition: background-size 350ms;
+  --bg-h: 100%; 
+  font-size: 14px; 
+}
+
+.navbar__mid a:where(:hover, :focus-visible) {
+  background-size: 100% var(--bg-h);
+  background-position-x: left;
+}
+
+.navbar__right {
+  display: flex; 
+  align-items: center; 
+  gap: 15px; 
+}
+
+.github-logo {
+  width: 25px; 
+  height: 25px; 
+  cursor: pointer; 
+}
+
+.hamburger__menu {
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-between; 
+  width: 18px;
+  height: 15px; 
+  cursor: pointer; 
+}
+
+.hamburger__menu span {
+  width: 100%; 
+  height: 1.5px; 
+  background-color: var(--alice-blue); 
+  transform-origin: left; 
+  transition: all 0.7s ease; 
+}
+
+.navbar.active {
+  background-color: var(--prussian-blue); 
+  color: var(--alice-blue); 
+  transition: all 0.7s ease-in-out; 
+} 
+
+.navbar.active .hamburger__menu span:first-child {
+  transform: rotate(47deg); 
+} 
+
+.navbar.active .hamburger__menu span:nth-child(2) {
+  opacity: 0; 
+}
+
+.navbar.active .hamburger__menu span:last-child {
+  transform: rotate(-49deg); 
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar__wrapper {
+    padding: 0 20px; 
+  }
+}
+
+@media screen and (min-width: 768.9px) {
+  .hamburger__menu {
+    display: none; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__mid ul {
+    display: none; 
+  }
+}

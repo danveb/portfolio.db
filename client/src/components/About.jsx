@@ -2,7 +2,7 @@ import profile from "../assets/profile/profile-bw.png";
 import { logos } from "../constants/logos"; 
 import "../styles/About.scss"; 
 
-const About = () => {
+export default function About() {
     return (
         <div id="about" className="about">
             <div className="about__wrapper">
@@ -32,5 +32,3 @@ const About = () => {
         </div>
     )
 }
-
-export default About
