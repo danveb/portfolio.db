@@ -37,6 +37,7 @@
 }
 
 .menu li {
+  list-style: none; 
   padding: 13px 15px; 
 }
 

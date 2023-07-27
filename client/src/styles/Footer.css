@@ -46,4 +46,9 @@
   .footer__wrapper {
     padding: 0 20px; 
   }
+
+  .footer__social__icons a img {
+    width: 18px; 
+    height: 18px; 
+  }
 }
