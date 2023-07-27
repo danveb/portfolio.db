@@ -32,7 +32,7 @@ export default function ProjectDetail() {
           {project.map((p) => (
             <div key={p.id}>
               <section className="projectDetail__top">
-                <h2>{p.title}<span className="dot--green">.</span></h2>
+                <h1>{p.title}<span className="dot--green">.</span></h1>
                 <div className="breakline"></div>
                 <p>{p.description}</p>
                 <Button title={p.liveUrlTitle} url={p.liveUrl} target="_blank" rel="noreferrer noopener"/>

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"; 
 import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
-import { Home, About, Projects } from "./pages"; 
-import { Navbar, Menu, Contact, Footer, ProjectDetail } from "./components"; 
+import { Home, About, Projects, Contact } from "./pages"; 
+import { Navbar, Menu, Footer, ProjectDetail } from "./components"; 
 
 const ScrollToTop = () => {
     const { pathname } = useLocation(); 

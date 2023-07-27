@@ -22,7 +22,7 @@ export default function About() {
             <p>Fast-forward to today, my projects showcase a diverse range of web applications, mostly developed with React. My mission is to design and develop web applications that provide a rich user interface. I focus on creating an aesthetically clean, functional, scalable, and testable apps. </p>
           </div>
           <div className="about__intro">
-            <p>I aspire to continue my journey learning TypeScript, Next.js and more, to be able to develop applications that solve problems. </p>
+            <p>I aspire to continue my journey learning TypeScript, Next.js and more. </p>
           </div>
         </section>
         <section className="about__skills">
