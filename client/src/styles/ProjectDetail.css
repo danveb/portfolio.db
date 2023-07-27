@@ -23,10 +23,10 @@
   justify-content: center; 
   align-items: space-between; 
   gap: 30px; 
-  margin: 100px 0; 
+  margin: 40px 0; 
 }
 
-.projectDetail__top h2 {
+.projectDetail__top h1 {
   font-family: inherit; 
   font-size: 26px; 
   letter-spacing: 0.5px; 
@@ -54,5 +54,15 @@
 @media screen and (max-width: 1024px) {
   .projectDetail__wrapper {
     padding: 0 20px; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projectDetail__top h1 {
+    font-size: 16px; 
+  }
+
+  .projectDetail__top p {
+    font-size: 14px; 
   }
 }

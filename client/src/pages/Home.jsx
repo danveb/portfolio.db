@@ -1,6 +1,4 @@
-// import chevronDown from "../assets/hero/chevron-down.svg"; 
-import Button from "../components/Button";
-import Gallery from "../components/Gallery";
+import { Button, Gallery } from "../components"; 
 import "../styles/Home.css"; 
 
 export default function Home() {
@@ -21,11 +19,7 @@ export default function Home() {
           <div className="home__intro">
             <p>Feel free to continue browsing my portfolio to know a little more about me, and the type of projects I love to create. </p>
           </div>
-          <Button title="check my story" url="/about" />
-
-          {/* <div className="hero__arrow">
-            <img src={chevronDown} alt="chevron down arrow" />
-          </div> */}
+          <Button title="read my story" url="/about" />
         </section>
         <section className="home__bottom">
           <Gallery />

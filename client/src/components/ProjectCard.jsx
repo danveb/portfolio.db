@@ -5,7 +5,7 @@ export default function ProjectCard({ img, alt, title, description }) {
     <>
       <div className="projectCard__card">
         <img src={img} alt={alt} />
-        <h3>{title}</h3>
+        <h2>{title}</h2>
         <p>{description}</p>
       </div>
     </>
