@@ -1,9 +1,9 @@
-.home {
+.projects {
   width: 100%; 
   height: 100%; 
 }
 
-.home__wrapper {
+.projects__wrapper {
   max-width: 768px; 
   margin: 0 auto; 
   width: 100%; 
@@ -11,8 +11,7 @@
   background-color: var(--rich-black); 
 }
 
-.home__top,
-.home__bottom {
+.projects__main {
   display: flex; 
   flex-direction: column; 
   justify-content: center; 
@@ -20,14 +19,14 @@
   margin: 40px 0;
 }
 
-.home__title {
+.projects__title {
   font-family: "Mulish", sans-serif; 
   font-size: 20px; 
   color: var(--alice-blue); 
   letter-spacing: 0.5px; 
 }
 
-.home__intro {
+.projects__intro {
   font-family: inherit; 
   font-size: 16px; 
   font-weight: 300; 
@@ -36,23 +35,13 @@
   line-height: 1.5rem; 
 }
 
-.home__intro p span {
+.projects__intro p span {
   color: #fff;
   font-weight: 600; 
 }
 
 @media screen and (max-width: 1024px) {
-  .home__wrapper {
+  .projects__wrapper {
     padding: 0 20px; 
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .home__title {
-    font-size: 16px; 
-  }
-
-  .home__intro {
-    font-size: 14px; 
   }
 }

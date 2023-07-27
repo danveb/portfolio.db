@@ -1,38 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500;700&family=Playfair+Display:wght@400;500;700&family=Ibarra+Real+Nova:wght@400;500;600&family=Space+Grotesk:wght@300;400;500&family=Mulish:wght@200;300;400;600;700;800&family=Ubuntu:wght@300;400&family=Quicksand:wght@100;200;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;600;700;800&display=swap");
 
 :root {
-    --font-base: "Mulish", "Kaisei Opti", "Ibarra Real Nova", "Space Grotesk", "Playfair Display", "Ubuntu", "Quicksand", sans-serif;
+    /* --font-base: "Mulish", "Kaisei Opti", "Ibarra Real Nova", "Space Grotesk", "Playfair Display", "Ubuntu", "Quicksand", sans-serif; */
+    --font-base: "Mulish", sans-serif;
 
     /* Palette Colors */
     --raisin-black: #191c26; 
     --rich-black: #111319; 
-    --cadet-blue-crayola: #a9afc3; 
-    --han-purple: #4831d2; 
-    --fuzzy-wuzzy: #de6868; 
-    --ny-pink: #e89494; 
-    --maximum-blue: #63a3bb; 
-    --languid-lavender: #d2c7d5; 
     --alice-blue: #f4f9fc; 
-    --alice-blue-matte: #edf2f8; 
-    --prussian-blue: #10345c; 
     --bottle-green: #006241; 
-
-    /* Considering */
-    --powder-blue: #a1cdce; 
-    --orange-red-crayola: #ff605c; 
-    --maximum-yellow-red: #ffbd44; 
-    --dark-pastel-green: #00ca4e; 
 }
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: var(--font-base); 
 }
 
 body {
+    font-family: var(--font-base); 
     background-color: var(--rich-black); 
+    color: #fff; 
 }
 
 .dot--green {
@@ -40,6 +28,7 @@ body {
     color: var(--bottle-green); 
 }
 
-.bold {
-    font-weight: 700; 
+.breakline {
+    border: 0.1px solid #d4d4d4; 
+    opacity: 0.4; 
 }

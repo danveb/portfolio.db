@@ -5,7 +5,10 @@ import react from "../assets/logos/react.png";
 import express from "../assets/logos/express.png"; 
 import mongoDB from "../assets/logos/mongoDB.png"; 
 import psql from "../assets/logos/psql.png"; 
-import sass from "../assets/logos/sass.png";  
+import tailwindcss from "../assets/logos/tailwindcss.png";  
+import styledcomponents from "../assets/logos/styledcomponents.png";  
+import python from "../assets/logos/python.png";  
+import flask from "../assets/logos/flask.png";  
 
 export const logos = [
     {
@@ -34,24 +37,42 @@ export const logos = [
     }, 
     {
         id: 5, 
-        text: "sass", 
-        img: sass, 
-        alt: "sass logo", 
+        text: "python", 
+        img: python, 
+        alt: "python logo", 
     }, 
     {
         id: 6, 
+        text: "styledcomponents", 
+        img: tailwindcss, 
+        alt: "tailwindcss logo", 
+    }, 
+    {
+        id: 7, 
+        text: "styledcomponents", 
+        img: styledcomponents, 
+        alt: "styledcomponents logo", 
+    }, 
+    {
+        id: 8, 
         text: "express", 
         img: express, 
         alt: "express logo", 
     }, 
     {
-        id: 7, 
+        id: 9, 
+        text: "flask", 
+        img: flask, 
+        alt: "flask logo", 
+    }, 
+    {
+        id: 10, 
         text: "psql", 
         img: psql, 
         alt: "psql logo", 
     }, 
     {
-        id: 8, 
+        id: 11, 
         text: "mongoDB", 
         img: mongoDB, 
         alt: "mongoDB logo", 

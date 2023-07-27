@@ -1,6 +1,6 @@
 import GitHub from "../assets/footer/github.svg"; 
 import LinkedIn from "../assets/footer/linkedin.svg"; 
-import Mailbox from "../assets/footer/mailbox.svg"; 
+import At from "../assets/footer/at.svg"; 
 
 export const footerSocials = [
     {
@@ -24,7 +24,7 @@ export const footerSocials = [
         url: "mailto:danibae91@gmail.com", 
         target: "_blank", 
         rel: "noreferrer noopener", 
-        img: Mailbox, 
+        img: At, 
         alt: "social icon",
     },
 ]; 

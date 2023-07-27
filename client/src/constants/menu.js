@@ -1,6 +1,6 @@
 import GitHub from "../assets/menu/github.svg"; 
 import LinkedIn from "../assets/menu/linkedin.svg"; 
-import Mailbox from "../assets/menu/mailbox.svg"; 
+import At from "../assets/menu/at.svg"; 
 
 export const menuSocials = [
     {
@@ -24,7 +24,7 @@ export const menuSocials = [
         url: "mailto:danibae91@gmail.com", 
         target: "_blank", 
         rel: "noreferrer noopener", 
-        img: Mailbox, 
+        img: At, 
         alt: "social icon",
     },
 ]; 

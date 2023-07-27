@@ -27,7 +27,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             <nav className={"navbar " + (menuOpen && "active")}>
                 <div className="navbar__wrapper">
                     <div className="navbar__left">
-                        <Link to="/" className="navbar__logo">db<span>.</span></Link>
+                        <Link to="/" className="navbar__logo" onClick={() => setMenuOpen(false)}>db<span>.</span></Link>
                     </div>
                     <div className="navbar__mid">
                         <ul>
@@ -44,7 +44,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
                         </ul>
                     </div>
                     <div className="navbar__right">
-                        <Link to={"https://github.com/danveb"} rel="noopener noreferrer" target="_blank">
+                        <Link to={"https://github.com/danveb"} rel="noopener noreferrer" target="_blank" onClick={() => setMenuOpen(false)}>
                             <img className="github-logo" src={github} alt="github logo" />
                         </Link>
                         <div className="hamburger__menu" onClick={() => setMenuOpen(!menuOpen)}>
