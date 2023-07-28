@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="home"
+  >
+    <div
+      class="home__wrapper"
+    >
+      <section
+        class="home__top"
+      >
+        <div
+          class="home__title"
+        >
+          <h1>
+            hey, I'm Danny
+            <span
+              class="dot--green"
+            >
+              .
+            </span>
+             👨‍💻
+          </h1>
+        </div>
+        <div
+          class="breakline"
+        />
+        <div
+          class="home__intro"
+        >
+          <p>
+            I'm a 
+            <span>
+              frontend developer
+            </span>
+            , passionate about finding ways to efficiently solve complex problems and make a positive difference for today and for tomorrow. I'm currently building my personal portfolio, which contains some of my latest projects. 
+          </p>
+        </div>
+        <div
+          class="home__intro"
+        >
+          <p>
+            Over the past couple of years, I've dived into the technologies I'm interested in at the time, and how I learned to grow in the development world. 
+          </p>
+        </div>
+        <div
+          class="home__intro"
+        >
+          <p>
+            Feel free to continue browsing my portfolio to know a little more about me, and the type of projects I love to create. 
+          </p>
+        </div>
+        <div
+          class="button__container"
+        >
+          <a
+            class="button--cta"
+            href="/about"
+          >
+            read my story
+            <img
+              alt="right arrow"
+              src="right-arrow.png"
+            />
+          </a>
+        </div>
+      </section>
+      <section
+        class="home__bottom"
+      >
+        <div
+          class="gallery"
+        >
+          <div
+            class="gallery__wrapper"
+          >
+            <div
+              class="gallery__card"
+            >
+              <img
+                alt=""
+                src="sailly_blank.png"
+              />
+              <img
+                alt=""
+                src="asador_blank.png"
+              />
+              <img
+                alt=""
+                src="bobaLife_blank.png"
+              />
+              <img
+                alt=""
+                src="ioniq5_blank.png"
+              />
+              <img
+                alt=""
+                src="coini$t_blank.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="button__container"
+        >
+          <a
+            class="button--cta"
+            href="/projects"
+          >
+            explore projects
+            <img
+              alt="right arrow"
+              src="right-arrow.png"
+            />
+          </a>
+        </div>
+      </section>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component matches snapshot 1`] = `
+<DocumentFragment>
+  <header>
+    <nav
+      class="navbar undefined"
+    >
+      <div
+        class="navbar__wrapper"
+      >
+        <div
+          class="navbar__left"
+        >
+          <a
+            class="navbar__logo"
+            href="/"
+          >
+            db
+            <span>
+              .
+            </span>
+          </a>
+        </div>
+        <div
+          class="navbar__mid"
+        >
+          <ul>
+            <li>
+              <a
+                href="/about"
+              >
+                about
+              </a>
+            </li>
+            <li>
+              <a
+                href="/projects"
+              >
+                projects
+              </a>
+            </li>
+            <li>
+              <a
+                href="/contact"
+              >
+                contact
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1N0VvKMKcAfogYAo-3gB3YONRT540EPLr/view?usp=sharing"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                resume
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="navbar__right"
+        >
+          <a
+            href="https://github.com/danveb"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="github logo"
+              class="github-logo"
+              src="github.svg"
+            />
+          </a>
+          <div
+            class="hamburger__menu"
+          >
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+</DocumentFragment>
+`;

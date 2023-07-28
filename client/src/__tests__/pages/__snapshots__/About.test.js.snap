@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="about"
+  >
+    <div
+      class="about__wrapper"
+    >
+      <section
+        class="about__main"
+      >
+        <div
+          class="about__title"
+        >
+          <h1>
+            this is my story
+            <span
+              class="dot--green"
+            >
+              .
+            </span>
+             📓
+          </h1>
+        </div>
+        <div
+          class="breakline"
+        />
+        <div
+          class="about__profile"
+        >
+          <img
+            alt="b&w profile avatar"
+            src="profile-bw.png"
+          />
+        </div>
+        <div
+          class="about__intro"
+        >
+          <p>
+            I started my journey as a developer back in 2020, when I wrote my first line of code, 
+            <span>
+              Hello World
+            </span>
+             on an HTML document. Little did I know this simple, yet powerful line of code would motivate me to learn web development due to its limitless posibilities in the technology space. I delved deeper into HTML, CSS and JavaScript, laying the foundation for my journey in web development as a developer. 
+          </p>
+        </div>
+        <div
+          class="about__intro"
+        >
+          <p>
+            Fast-forward to today, my projects showcase a diverse range of web applications, mostly developed with React. My mission is to design and develop web applications that provide a rich user interface. I focus on creating an aesthetically clean, functional, scalable, and testable apps. 
+          </p>
+        </div>
+        <div
+          class="about__intro"
+        >
+          <p>
+            I aspire to continue my journey learning TypeScript, Next.js and more. 
+          </p>
+        </div>
+      </section>
+      <section
+        class="about__skills"
+      >
+        <ul>
+          <li>
+            <img
+              alt="html logo"
+              src="html5.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="css logo"
+              src="css.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="javascript logo"
+              src="js.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="node logo"
+              src="node.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="react logo"
+              src="react.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="python logo"
+              src="python.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="tailwindcss logo"
+              src="tailwindcss.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="styledcomponents logo"
+              src="styledcomponents.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="express logo"
+              src="express.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="flask logo"
+              src="flask.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="jasmine logo"
+              src="jasmine.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="jest logo"
+              src="jest.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="testingLibrary logo"
+              src="testing-library.svg"
+            />
+          </li>
+          <li>
+            <img
+              alt="psql logo"
+              src="psql.png"
+            />
+          </li>
+          <li>
+            <img
+              alt="mongoDB logo"
+              src="mongoDB.png"
+            />
+          </li>
+        </ul>
+      </section>
+      <section
+        class="about__bottom"
+      >
+        <div
+          class="button__container"
+        >
+          <a
+            class="button--cta"
+            href="/projects"
+          >
+            explore projects
+            <img
+              alt="right arrow"
+              src="right-arrow.png"
+            />
+          </a>
+        </div>
+      </section>
+    </div>
+  </div>
+</DocumentFragment>
+`;

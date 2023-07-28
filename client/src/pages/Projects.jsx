@@ -6,7 +6,7 @@ export default function Projects() {
     <div className="projects">
       <div className="projects__wrapper">
         <section className="projects__main">
-          <div className="projects__title">
+          <div className="projects__title" data-testid="title">
             <h1>my projects<span className="dot--green">.</span> 🚀</h1>
           </div>
           <div className="breakline"></div>

@@ -5,7 +5,7 @@ import "../styles/Button.css";
 
 export default function Button({ title, url, rel=null, target=null }) {
   return (
-    <div className="button__container">
+    <div className="button__container" data-testid="button">
       <Link to={url} className={url.indexOf("https://github.com") !== -1 ? "button--cta--alt" : "button--cta"} rel={rel} target={target}>
         {title}
         <img src={url.indexOf("https://github.com") !== -1 ? rightArrowAlt : rightArrow} alt="right arrow"/>

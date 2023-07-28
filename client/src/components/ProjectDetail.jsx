@@ -26,7 +26,7 @@ export default function ProjectDetail() {
   }, [path]); 
 
   return (
-    <div className="projectDetail">
+    <div className="projectDetail" data-testid="projectDetail">
       <div className="projectDetail__wrapper">
         <div className="projectDetail__main">
           {project.map((p) => (

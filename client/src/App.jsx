@@ -1,15 +1,7 @@
-import { useState, useEffect } from "react"; 
-import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
+import { useState } from "react"; 
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Home, About, Projects, Contact } from "./pages"; 
-import { Navbar, Menu, Footer, ProjectDetail } from "./components"; 
-
-const ScrollToTop = () => {
-    const { pathname } = useLocation(); 
-    useEffect(() => {
-        window.scrollTo(0, 0); 
-    }, [pathname]);
-    return null; 
-}; 
+import { Navbar, Menu, Footer, ProjectDetail, ScrollToTop } from "./components"; 
 
 export default function App() {
     const [menuOpen, setMenuOpen] = useState(false)

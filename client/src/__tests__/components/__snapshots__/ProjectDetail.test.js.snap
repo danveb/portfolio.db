@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectDetail component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="projectDetail"
+    data-testid="projectDetail"
+  >
+    <div
+      class="projectDetail__wrapper"
+    >
+      <div
+        class="projectDetail__main"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

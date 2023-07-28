@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectCard component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="projectCard__card"
+    data-testid="projectCard"
+  >
+    <img />
+    <h2 />
+    <p />
+  </div>
+</DocumentFragment>
+`;

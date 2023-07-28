@@ -5,7 +5,7 @@ import "../styles/ProjectList.css";
 
 export default function ProjectList() {
   return (
-    <div className="projectList">
+    <div className="projectList" data-testid="projectList">
       <div className="projectList__wrapper">
         {projects.map((project) => (
           <div key={project.id}>

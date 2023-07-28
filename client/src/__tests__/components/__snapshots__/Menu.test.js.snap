@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu component matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="menu__nav undefined"
+  >
+    <div
+      class="menu"
+    >
+      <ul>
+        <li>
+          <a
+            href="/about"
+          >
+            about
+          </a>
+        </li>
+        <li>
+          <a
+            href="/projects"
+          >
+            projects
+          </a>
+        </li>
+        <li>
+          <a
+            href="/contact"
+          >
+            contact
+          </a>
+        </li>
+        <li>
+          <div>
+            <a
+              href="https://drive.google.com/file/d/1N0VvKMKcAfogYAo-3gB3YONRT540EPLr/view?usp=sharing"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              resume
+            </a>
+          </div>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="https://www.github.com/danveb"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <img
+              alt="social icon"
+              class="social"
+              src="github.svg"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/daniel-eze-bae"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <img
+              alt="social icon"
+              class="social"
+              src="linkedin.svg"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="mailto:danibae91@gmail.com"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <img
+              alt="social icon"
+              class="social"
+              src="at.svg"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</DocumentFragment>
+`;

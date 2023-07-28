@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="projects"
+  >
+    <div
+      class="projects__wrapper"
+    >
+      <section
+        class="projects__main"
+      >
+        <div
+          class="projects__title"
+          data-testid="title"
+        >
+          <h1>
+            my projects
+            <span
+              class="dot--green"
+            >
+              .
+            </span>
+             🚀
+          </h1>
+        </div>
+        <div
+          class="breakline"
+        />
+        <div
+          class="projects__intro"
+        >
+          <p>
+            Here are some of my most loved projects: 
+          </p>
+        </div>
+      </section>
+      <section
+        class="projects__gallery"
+      >
+        <div
+          class="projectList"
+        >
+          <div
+            class="projectList__wrapper"
+          >
+            <div>
+              <div
+                class="projectCard__card"
+              >
+                <img
+                  alt="sail.ly snapshot"
+                  src="sailly_blank.png"
+                />
+                <h2>
+                  sailly
+                </h2>
+                <p>
+                  Dream in open waters. SAIL.LY is a web app for beginner-to-experienced sailors that want to enjoy a day out on the water. App allows users to check on their favorite sailing clubs for sailing conditions based on real-time weather data, integrated with Weather API.
+                </p>
+              </div>
+              <div
+                class="projectList__navigation"
+              >
+                <div
+                  class="button__container"
+                >
+                  <a
+                    class="button--cta"
+                    href="/sailly"
+                  >
+                    let's go for a sail
+                    <img
+                      alt="right arrow"
+                      src="right-arrow.png"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="projectCard__card"
+              >
+                <img
+                  alt="asador.ly snapshot"
+                  src="asador_blank.png"
+                />
+                <h2>
+                  asador
+                </h2>
+                <p>
+                  Ever wondered what asado means in Buenos Aires? Asador is all about sharing the joy of the best parrillas (steakhouses). Users are greeted with a live, open-source map with custom pins. Signing up for an account allows users to pin their favorite parrillas.
+                </p>
+              </div>
+              <div
+                class="projectList__navigation"
+              >
+                <div
+                  class="button__container"
+                >
+                  <a
+                    class="button--cta"
+                    href="/asador"
+                  >
+                    hello asador
+                    <img
+                      alt="right arrow"
+                      src="right-arrow.png"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="projectCard__card"
+              >
+                <img
+                  alt="bobaLife snapshot"
+                  src="bobaLife_blank.png"
+                />
+                <h2>
+                  bobalife
+                </h2>
+                <p>
+                  Who enjoys sipping an ice-cold boba milk tea at any time of the day? bobaLife is an e-commerce web app designed for a fictitous boba shop. This app incorporates working cart/checkout process and integration of Stripe mobile payments.
+                </p>
+              </div>
+              <div
+                class="projectList__navigation"
+              >
+                <div
+                  class="button__container"
+                >
+                  <a
+                    class="button--cta"
+                    href="/bobalife"
+                  >
+                    wanna boba?
+                    <img
+                      alt="right arrow"
+                      src="right-arrow.png"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="projectCard__card"
+              >
+                <img
+                  alt="ioniq5 snapshot"
+                  src="ioniq5_blank.png"
+                />
+                <h2>
+                  ioniq5
+                </h2>
+                <p>
+                  App designed for users who want to search deliveries of 2022 Hyundai IONIQ 5 to local dealerships. User can fill in the zipcode and radius for searching. Data is fetched from Hyundai USA's API and key details are displayed on a table.
+                </p>
+              </div>
+              <div
+                class="projectList__navigation"
+              >
+                <div
+                  class="button__container"
+                >
+                  <a
+                    class="button--cta"
+                    href="/ioniq5"
+                  >
+                    ioniq ftw
+                    <img
+                      alt="right arrow"
+                      src="right-arrow.png"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="projectCard__card"
+              >
+                <img
+                  alt="portfolio snapshot"
+                  src="portfolio_blank.png"
+                />
+                <h2>
+                  portfolio
+                </h2>
+                <p>
+                  My portfolio
+                </p>
+              </div>
+              <div
+                class="projectList__navigation"
+              >
+                <div
+                  class="button__container"
+                >
+                  <a
+                    class="button--cta"
+                    href="/portfolio"
+                  >
+                    this is it
+                    <img
+                      alt="right arrow"
+                      src="right-arrow.png"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="projectList__btn"
+            >
+              <div
+                class="button__container"
+              >
+                <a
+                  class="button--cta--alt"
+                  href="https://github.com/danveb"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  are you looking for more projects?
+                  <img
+                    alt="right arrow"
+                    src="right-arrow-alt.png"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</DocumentFragment>
+`;
