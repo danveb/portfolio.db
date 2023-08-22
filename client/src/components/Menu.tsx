@@ -4,7 +4,9 @@ import { menuSocials } from "../constants/menu";
 import { resumeLink } from "../constants/resume";
 import "../styles/Menu.css"; 
 
-export default function Menu({ menuOpen, setMenuOpen }) {
+import { openProps } from "../types";
+
+export default function Menu({ menuOpen, setMenuOpen }: openProps) {
     return (
         <nav className={"menu__nav " + (menuOpen && "active")}>
             <div className="menu">
