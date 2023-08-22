@@ -5,7 +5,9 @@ import { resumeLink } from "../constants/resume";
 import github from "../assets/navbar/github.svg"; 
 import "../styles/Navbar.css"; 
 
-export default function Navbar({ menuOpen, setMenuOpen }) {
+import { openProps } from "../types/index"; 
+
+export default function Navbar({ menuOpen, setMenuOpen }: openProps) {
     // useEffect 
     // when resizing window we'll handle state back to closing mobileMenu/navbar bg
     useEffect(() => {

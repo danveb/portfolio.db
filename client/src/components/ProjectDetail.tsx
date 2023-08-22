@@ -4,6 +4,8 @@ import Button from "./Button";
 import { projects } from "../constants/projects";
 import "../styles/ProjectDetail.css"; 
 
+import { ProjectProps } from "../types";
+
 export default function ProjectDetail() {
   // useLocation
   // grab location from current param for name of "project" 
@@ -11,7 +13,7 @@ export default function ProjectDetail() {
   const path = location.pathname.split("/")[2]; 
 
   // useState 
-  const [project, setProject] = useState([]); 
+  const [project, setProject] = useState<ProjectProps[]>([]); 
 
   // useEffect
   useEffect(() => {

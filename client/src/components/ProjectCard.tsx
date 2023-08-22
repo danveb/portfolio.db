@@ -1,6 +1,8 @@
 import "../styles/ProjectCard.css"; 
 
-export default function ProjectCard({ img, alt, title, description }) {
+import { ProjectCardProps } from "../types";
+
+export default function ProjectCard({ img, alt, title, description }: ProjectCardProps) {
   return (
     <div className="projectCard__card" data-testid="projectCard">
       <img src={img} alt={alt} />

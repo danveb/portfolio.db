@@ -1,10 +1,10 @@
 import { useState } from "react"; 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Home, About, Projects, Contact } from "./pages"; 
+import { Home, About, Projects, Contact, NotFound } from "./pages"; 
 import { Navbar, Menu, Footer, ProjectDetail, ScrollToTop } from "./components"; 
 
 export default function App() {
-    const [menuOpen, setMenuOpen] = useState(false)
+    const [menuOpen, setMenuOpen] = useState(false); 
     return (
         <div className="app">
             <Router>
@@ -17,6 +17,9 @@ export default function App() {
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/projects/:id" element={<ProjectDetail />} />
                     <Route path="/contact" element={<Contact />} />
+
+                    {/* NotFound for routes not matched */}
+                    <Route path="*" element={<NotFound />} />
                 </Routes>
                 <Footer />
             </Router>
