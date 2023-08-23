@@ -1,6 +1,15 @@
 import { render, screen } from "@testing-library/react"; 
 import ProjectCard from "../../components/ProjectCard"; 
 import { BrowserRouter } from "react-router-dom";
+import asador from "../../assets/projects/asador.png"; 
+
+// mockProps interface
+interface mockProps {
+  img: string;
+  alt: string;
+  title: string; 
+  description: string; 
+}
 
 // sample props to be passed down 
 const props = {
@@ -11,7 +20,7 @@ const props = {
 }; 
 
 // jest.mock
-jest.mock("../../components/ProjectCard", () => (props) => {
+jest.mock("../../components/ProjectCard", () => (props: mockProps) => {
   return <div className="projectCard__card" data-testid="projectCard">
     <img src={props.img} alt={props.alt} />
     <h2>{props.title}</h2>
@@ -24,7 +33,7 @@ describe("ProjectCard component", () => {
   test("renders without crashing", () => {
     render(
       <BrowserRouter>
-        <ProjectCard />
+        <ProjectCard img={props.img} alt={props.alt} title={props.title} description={props.description} />
       </BrowserRouter>
     ); 
   }); 
@@ -33,7 +42,7 @@ describe("ProjectCard component", () => {
   test("matches snapshot", () => {
     const { asFragment } = render(
       <BrowserRouter>
-        <ProjectCard />
+        <ProjectCard img={props.img} alt={props.alt} title={props.title} description={props.description} />
       </BrowserRouter>
     ); 
     expect(asFragment()).toMatchSnapshot(); 
@@ -43,7 +52,7 @@ describe("ProjectCard component", () => {
   test("matches test id", () => {
     render(
       <BrowserRouter>
-        <ProjectCard props={props} />
+        <ProjectCard img={asador} alt="asador project" title="Asador" description="Description about asador" />
       </BrowserRouter>
     );
     const testId = screen.getByTestId("projectCard"); 

@@ -6,9 +6,16 @@ exports[`ProjectCard component matches snapshot 1`] = `
     class="projectCard__card"
     data-testid="projectCard"
   >
-    <img />
-    <h2 />
-    <p />
+    <img
+      alt="project snapshot"
+      src="image"
+    />
+    <h2>
+      Hello World
+    </h2>
+    <p>
+      This is a mock description
+    </p>
   </div>
 </DocumentFragment>
 `;
