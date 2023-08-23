@@ -19,10 +19,10 @@ export default function About() {
             <p>I started my journey as a developer back in 2020, when I wrote my first line of code, <span>Hello World</span> on an HTML document. Little did I know this simple, yet powerful line of code would motivate me to learn web development due to its limitless posibilities in the technology space. I delved deeper into HTML, CSS and JavaScript, laying the foundation for my journey in web development as a developer. </p>
           </div>
           <div className="about__intro">
-            <p>Fast-forward to today, my projects showcase a diverse range of web applications, mostly developed with React. My mission is to design and develop web applications that provide a rich user interface. I focus on creating an aesthetically clean, functional, scalable, and testable apps. </p>
+            <p>Fast-forward to today, my projects showcase a diverse range of web applications, mostly developed with React. I'm currently learning TypeScript to encourage and enhance type safety of my code as well as to scale existing and new projects. </p>
           </div>
           <div className="about__intro">
-            <p>I aspire to continue my journey learning TypeScript, Next.js and more. </p>
+            <p>My mission is to design and develop web applications that provide a rich user interface. I focus on creating an aesthetically clean, functional, scalable, and testable apps. </p>
           </div>
         </section>
         <section className="about__skills">

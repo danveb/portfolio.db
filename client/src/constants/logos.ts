@@ -13,6 +13,7 @@ import flask from "../assets/logos/flask.png";
 import jasmine from "../assets/logos/jasmine.png";  
 import jest from "../assets/logos/jest.png";  
 import testingLibrary from "../assets/logos/testing-library.svg";  
+import typescript from "../assets/logos/typescript.png";  
 
 export const logos = [
     {
@@ -47,60 +48,66 @@ export const logos = [
     }, 
     {
         id: 6, 
+        text: "typescript", 
+        img: typescript, 
+        alt: "typescript logo", 
+    }, 
+    {
+        id: 7, 
         text: "python", 
         img: python, 
         alt: "python logo", 
     }, 
     {
-        id: 7, 
+        id: 8, 
         text: "tailwindcss", 
         img: tailwindcss, 
         alt: "tailwindcss logo", 
     }, 
     {
-        id: 8, 
+        id: 9, 
         text: "styledcomponents", 
         img: styledcomponents, 
         alt: "styledcomponents logo", 
     }, 
     {
-        id: 9, 
+        id: 10, 
         text: "express", 
         img: express, 
         alt: "express logo", 
     }, 
     {
-        id: 10, 
+        id: 11, 
         text: "flask", 
         img: flask, 
         alt: "flask logo", 
     }, 
     {
-        id: 11, 
+        id: 12, 
         text: "jasmine", 
         img: jasmine, 
         alt: "jasmine logo", 
     }, 
     {
-        id: 12, 
+        id: 13, 
         text: "jest", 
         img: jest, 
         alt: "jest logo", 
     }, 
     {
-        id: 13, 
+        id: 14, 
         text: "testingLibrary", 
         img: testingLibrary, 
         alt: "testingLibrary logo", 
     }, 
     {
-        id: 14, 
+        id: 15, 
         text: "psql", 
         img: psql, 
         alt: "psql logo", 
     }, 
     {
-        id: 15, 
+        id: 16, 
         text: "mongoDB", 
         img: mongoDB, 
         alt: "mongoDB logo", 
