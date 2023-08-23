@@ -1,7 +1,7 @@
 <h1>portfolio.db</h1>
 
 <p>A showcase of my journey in web development. Explore a selection of my latest web applications, crafted with the latest technologies. 
-Note: as of July 2023 my personal portfolio web app has been updated to v2. Redesigned and re-engineered UI components with React. </p>
+Note: as of August 2023 my personal portfolio web app has been updated to integrate TypeScript. Redesigned and re-engineered UI components with React. </p>
 
 <h3>Table of Contents</h3>
 
@@ -16,11 +16,12 @@ Note: as of July 2023 my personal portfolio web app has been updated to v2. Rede
 
 ```sh
 React.js 
+TypeScript
 CSS
 MapboxGL API
 Netlify
 ```
-### [Live Preview](https://portfolio-dbae.netlify.app/) - https://portfolio-dbae.netlify.app
+### [Live](https://dbae.vercel.app/) - https://dbae.vercel.app/
 
 ### [Repository](https://github.com/danveb/portfolio.db)
 
