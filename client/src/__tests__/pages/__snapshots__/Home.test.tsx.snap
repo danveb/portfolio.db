@@ -54,6 +54,7 @@ exports[`Home Component matches snapshot 1`] = `
         </div>
         <div
           class="button__container"
+          data-testid="button"
         >
           <a
             class="button--cta"
@@ -104,6 +105,7 @@ exports[`Home Component matches snapshot 1`] = `
         </div>
         <div
           class="button__container"
+          data-testid="button"
         >
           <a
             class="button--cta"

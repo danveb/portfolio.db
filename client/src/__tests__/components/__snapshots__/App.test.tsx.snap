@@ -1,0 +1,354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="app"
+  >
+    <header>
+      <nav
+        class="navbar false"
+      >
+        <div
+          class="navbar__wrapper"
+        >
+          <div
+            class="navbar__left"
+          >
+            <a
+              class="navbar__logo"
+              href="/"
+            >
+              db
+              <span>
+                .
+              </span>
+            </a>
+          </div>
+          <div
+            class="navbar__mid"
+          >
+            <ul>
+              <li>
+                <a
+                  href="/about"
+                >
+                  about
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/projects"
+                >
+                  projects
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/contact"
+                >
+                  contact
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1N0VvKMKcAfogYAo-3gB3YONRT540EPLr/view?usp=sharing"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  resume
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="navbar__right"
+          >
+            <a
+              href="https://github.com/danveb"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="github logo"
+                class="github-logo"
+                src="github.svg"
+              />
+            </a>
+            <div
+              class="hamburger__menu"
+            >
+              <span />
+              <span />
+              <span />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <nav
+      class="menu__nav false"
+    >
+      <div
+        class="menu"
+      >
+        <ul>
+          <li>
+            <a
+              href="/about"
+            >
+              about
+            </a>
+          </li>
+          <li>
+            <a
+              href="/projects"
+            >
+              projects
+            </a>
+          </li>
+          <li>
+            <a
+              href="/contact"
+            >
+              contact
+            </a>
+          </li>
+          <li>
+            <div>
+              <a
+                href="https://drive.google.com/file/d/1N0VvKMKcAfogYAo-3gB3YONRT540EPLr/view?usp=sharing"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                resume
+              </a>
+            </div>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a
+              href="https://www.github.com/danveb"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <img
+                alt="social icon"
+                class="social"
+                src="github.svg"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/daniel-eze-bae"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <img
+                alt="social icon"
+                class="social"
+                src="linkedin.svg"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:danibae91@gmail.com"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <img
+                alt="social icon"
+                class="social"
+                src="at.svg"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div
+      class="home"
+    >
+      <div
+        class="home__wrapper"
+      >
+        <section
+          class="home__top"
+        >
+          <div
+            class="home__title"
+          >
+            <h1>
+              hey, I'm Danny
+              <span
+                class="dot--green"
+              >
+                .
+              </span>
+               👨‍💻
+            </h1>
+          </div>
+          <div
+            class="breakline"
+          />
+          <div
+            class="home__intro"
+          >
+            <p>
+              I'm a 
+              <span>
+                frontend developer
+              </span>
+              , passionate about finding ways to efficiently solve complex problems and make a positive difference for today and for tomorrow. I'm currently building my personal portfolio, which contains some of my latest projects. 
+            </p>
+          </div>
+          <div
+            class="home__intro"
+          >
+            <p>
+              Over the past couple of years, I've dived into the technologies I'm interested in at the time, and how I learned to grow in the development world. 
+            </p>
+          </div>
+          <div
+            class="home__intro"
+          >
+            <p>
+              Feel free to continue browsing my portfolio to know a little more about me, and the type of projects I love to create. 
+            </p>
+          </div>
+          <div
+            class="button__container"
+            data-testid="button"
+          >
+            <a
+              class="button--cta"
+              href="/about"
+            >
+              read my story
+              <img
+                alt="right arrow"
+                src="right-arrow.png"
+              />
+            </a>
+          </div>
+        </section>
+        <section
+          class="home__bottom"
+        >
+          <div
+            class="gallery"
+          >
+            <div
+              class="gallery__wrapper"
+            >
+              <div
+                class="gallery__card"
+              >
+                <img
+                  alt=""
+                  src="sailly_blank.png"
+                />
+                <img
+                  alt=""
+                  src="asador_blank.png"
+                />
+                <img
+                  alt=""
+                  src="bobaLife_blank.png"
+                />
+                <img
+                  alt=""
+                  src="ioniq5_blank.png"
+                />
+                <img
+                  alt=""
+                  src="coini$t_blank.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="button__container"
+            data-testid="button"
+          >
+            <a
+              class="button--cta"
+              href="/projects"
+            >
+              explore projects
+              <img
+                alt="right arrow"
+                src="right-arrow.png"
+              />
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div
+      class="footer"
+    >
+      <div
+        class="footer__wrapper"
+      >
+        <div
+          class="footer__main"
+        >
+          <div
+            class="footer__copyright"
+          >
+            <p>
+              © All rights reserved – Danny Bae
+            </p>
+          </div>
+          <div
+            class="footer__social__icons"
+          >
+            <ul>
+              <li>
+                <a
+                  href="https://www.github.com/danveb"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <img
+                    alt="social icon"
+                    src="github.svg"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/daniel-eze-bae"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <img
+                    alt="social icon"
+                    src="linkedin.svg"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:danibae91@gmail.com"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  <img
+                    alt="social icon"
+                    src="at.svg"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -4,7 +4,8 @@ exports[`Navbar component matches snapshot 1`] = `
 <DocumentFragment>
   <header>
     <nav
-      class="navbar undefined"
+      class="navbar false"
+      data-testid="navbarId"
     >
       <div
         class="navbar__wrapper"
@@ -74,6 +75,7 @@ exports[`Navbar component matches snapshot 1`] = `
           </a>
           <div
             class="hamburger__menu"
+            data-testid="hamburger"
           >
             <span />
             <span />

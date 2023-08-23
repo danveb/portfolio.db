@@ -5,8 +5,13 @@ exports[`Button component matches snapshot 1`] = `
   <button
     data-testid="button"
   >
-    <a>
-      <img />
+    <a
+      href="https://google.com"
+    >
+      Hello World
+      <img
+        src="https://google.com"
+      />
     </a>
   </button>
 </DocumentFragment>

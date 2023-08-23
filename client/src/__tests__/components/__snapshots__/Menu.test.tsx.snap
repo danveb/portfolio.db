@@ -3,7 +3,8 @@
 exports[`Menu component matches snapshot 1`] = `
 <DocumentFragment>
   <nav
-    class="menu__nav undefined"
+    class="menu__nav active"
+    data-testid="menuId"
   >
     <div
       class="menu"
