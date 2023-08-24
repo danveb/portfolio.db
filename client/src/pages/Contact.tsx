@@ -1,4 +1,4 @@
-import { Button, MapboxGL } from "../components";
+import { MapboxGL, Note } from "../components";
 import "../styles/Contact.css"; 
 
 export default function Contact() {
@@ -12,10 +12,11 @@ export default function Contact() {
           <div className="breakline"></div>
           <div className="contact__intro">
             <p>I'm in the Chicago area, but open to discussing new opportunities to work together regardless of location. Feel free to send a note and I'll do my best to get back to you. </p>
+
           </div>
-          <Button title="let's email" url="mailto:danibae91@gmail.com?subject=👨‍💻  hey Danny, let's work together!" />
         </section>
         <MapboxGL />
+        <Note />
       </div>
     </div>
   )

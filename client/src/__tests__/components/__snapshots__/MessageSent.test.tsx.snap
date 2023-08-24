@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageSent component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="messageSent"
+  >
+    <div
+      class="messageSent__wrapper"
+    >
+      <section
+        class="messageSent__main"
+      >
+        <div
+          class="messageSent__title"
+        >
+          <h1>
+            thanks a lot
+            <span
+              class="dot--green"
+            >
+              .
+            </span>
+             🎊
+          </h1>
+        </div>
+        <div
+          class="breakline"
+        />
+        <div
+          class="messageSent__intro"
+        >
+          <p>
+            message sent | thank you for visiting my portfolio. And talk soon! 
+          </p>
+        </div>
+      </section>
+      <section
+        class="messageSent__bottom"
+      >
+        <div
+          class="button__container"
+          data-testid="button"
+        >
+          <a
+            class="button--cta"
+            href="/"
+          >
+            chau chau 👋
+            <img
+              alt="right arrow"
+              src="right-arrow.png"
+            />
+          </a>
+        </div>
+      </section>
+    </div>
+  </div>
+</DocumentFragment>
+`;

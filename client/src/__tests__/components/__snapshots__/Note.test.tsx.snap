@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Note component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="note"
+  >
+    <div
+      class="note__wrapper"
+    >
+      <form>
+        <label
+          for="user_name"
+        >
+          Name
+        </label>
+        <input
+          id="user_name"
+          name="user_name"
+          placeholder="Your name"
+          required=""
+          type="text"
+        />
+        <label
+          for="user_email"
+        >
+          Email
+        </label>
+        <input
+          id="user_email"
+          name="user_email"
+          placeholder="Your email"
+          required=""
+          type="email"
+        />
+        <label
+          for="message"
+        >
+          Message
+        </label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Any message you'd like to send"
+          required=""
+        />
+        <input
+          class="submitBtn"
+          type="submit"
+          value="shoot email 👨‍💻"
+        />
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;
