@@ -1,4 +1,4 @@
-import { MapboxGL, Note } from "../components";
+import { Note } from "../components";
 import "../styles/Contact.css"; 
 
 export default function Contact() {
@@ -15,7 +15,6 @@ export default function Contact() {
 
           </div>
         </section>
-        <MapboxGL />
         <Note />
       </div>
     </div>

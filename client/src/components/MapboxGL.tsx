@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect } from "react"; 
 // @ts-ignore
-import mapboxgl, { Map } from "mapbox-gl" // eslint-disable-line import/no-webpack-loader-syntax
+import mapboxgl, { Map } from "!mapbox-gl" // eslint-disable-line import/no-webpack-loader-syntax
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_API || ""; // added fallback for accessToken
 
@@ -16,7 +16,6 @@ export default function MapboxGL() {
   useEffect(() => {
     if(map.current) return; // initialize map just once
     
-
     const mapOptions: mapboxgl.MapboxOptions = {
       container: mapContainer.current!, 
       style: "mapbox://styles/mapbox/dark-v11", 
