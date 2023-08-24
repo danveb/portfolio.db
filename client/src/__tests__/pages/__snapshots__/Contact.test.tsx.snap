@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="contact"
+  >
+    <div
+      class="contact__wrapper"
+    >
+      <section
+        class="contact__main"
+      >
+        <div
+          class="contact__title"
+        >
+          <h1>
+            send me a note
+            <span
+              class="dot--green"
+            >
+              .
+            </span>
+             📝
+          </h1>
+        </div>
+        <div
+          class="breakline"
+        />
+        <div
+          class="contact__intro"
+        >
+          <p>
+            I'm in the Chicago area, but open to discussing new opportunities to work together regardless of location. Feel free to send a note and I'll do my best to get back to you. 
+          </p>
+        </div>
+      </section>
+      <div
+        class="note"
+      >
+        <div
+          class="note__wrapper"
+        >
+          <form>
+            <label
+              for="user_name"
+            >
+              Name
+            </label>
+            <input
+              id="user_name"
+              name="user_name"
+              placeholder="Your name"
+              required=""
+              type="text"
+            />
+            <label
+              for="user_email"
+            >
+              Email
+            </label>
+            <input
+              id="user_email"
+              name="user_email"
+              placeholder="Your email"
+              required=""
+              type="email"
+            />
+            <label
+              for="message"
+            >
+              Message
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Any message you'd like to send"
+              required=""
+            />
+            <input
+              class="submitBtn"
+              type="submit"
+              value="shoot email 👨‍💻"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

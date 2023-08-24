@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 
 describe("Contact component", () => {
   // snapshot test
-  test.skip("matches snapshot", () => {
+  test("matches snapshot", () => {
     const { asFragment } = render(
       <BrowserRouter>
         <Contact />
@@ -14,7 +14,7 @@ describe("Contact component", () => {
   });
 
     // getByText
-  test.skip("should display the title", () => {
+  test("should display the title", () => {
     render(
       <BrowserRouter>
         <Contact />
@@ -27,14 +27,13 @@ describe("Contact component", () => {
   });
 
   // getByText 
-  test.skip("should display the anchor tag", () => {
+  test("should display a p tag", () => {
     render(
       <BrowserRouter>
         <Contact />
       </BrowserRouter>
     ); 
-    const anchor = screen.getByText("Say Hello", { exact: true }); 
-    expect(anchor).toHaveClass("cta"); 
-    // expect(anchor).toBeInTheDocument(); 
+    const pTag = screen.getByText("Chicago", { exact: false }); 
+    expect(pTag).toBeInTheDocument(); 
   });
 });
