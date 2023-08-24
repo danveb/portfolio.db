@@ -8,6 +8,7 @@ exports[`App component matches snapshot 1`] = `
     <header>
       <nav
         class="navbar false"
+        data-testid="navbarId"
       >
         <div
           class="navbar__wrapper"
@@ -77,6 +78,7 @@ exports[`App component matches snapshot 1`] = `
             </a>
             <div
               class="hamburger__menu"
+              data-testid="hamburger"
             >
               <span />
               <span />
@@ -88,6 +90,7 @@ exports[`App component matches snapshot 1`] = `
     </header>
     <nav
       class="menu__nav false"
+      data-testid="menuId"
     >
       <div
         class="menu"
