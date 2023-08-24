@@ -18,8 +18,8 @@ Note: as of August 2023 my personal portfolio web app has been updated to integr
 React.js 
 TypeScript
 CSS
-MapboxGL API
-Netlify
+MapboxGL API -> not production-ready at this time
+Vercel
 ```
 ### [Live](https://dbae.vercel.app/) - https://dbae.vercel.app/
 
