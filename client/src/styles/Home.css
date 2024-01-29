@@ -1,58 +1,63 @@
 .home {
-  width: 100%; 
-  height: 100%; 
+  width: 100%;
+  height: 100%;
 }
 
 .home__wrapper {
-  max-width: 768px; 
-  margin: 0 auto; 
-  width: 100%; 
-  height: 100%; 
-  background-color: var(--rich-black); 
+  max-width: 768px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-color: var(--rich-black);
 }
 
 .home__top,
 .home__bottom {
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
-  gap: 20px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
   margin: 40px 0;
 }
 
 .home__title {
-  font-family: "Mulish", sans-serif; 
-  font-size: 20px; 
-  color: var(--alice-blue); 
-  letter-spacing: 0.5px; 
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  color: var(--alice-blue);
+  letter-spacing: 0.5px;
 }
 
 .home__intro {
-  font-family: inherit; 
-  font-size: 16px; 
-  font-weight: 300; 
-  color: #d4d4d4; 
-  letter-spacing: 1px; 
-  line-height: 1.5rem; 
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 300;
+  color: #d4d4d4;
+  letter-spacing: 1px;
+  line-height: 1.65rem;
+}
+
+.home__intro p:first-child,
+.home__intro p:nth-child(2) {
+  margin-bottom: 20px;
 }
 
 .home__intro p span {
   color: #fff;
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 @media screen and (max-width: 1024px) {
   .home__wrapper {
-    padding: 0 20px; 
+    padding: 0 20px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .home__title {
-    font-size: 16px; 
+    font-size: 16px;
   }
 
   .home__intro {
-    font-size: 14px; 
+    font-size: 14px;
   }
 }
