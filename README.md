@@ -1,7 +1,8 @@
 <h1>portfolio.db</h1>
 
-<p>A showcase of my journey in web development. Explore a selection of my latest web applications, crafted with the latest technologies. 
-Note: as of August 2023 my personal portfolio web app has been updated to integrate TypeScript. Redesigned and re-engineered UI components with React. </p>
+<p>A showcase of my journey in web development. Explore a selection of my latest web applications, crafted with the latest technologies. </p>
+
+<i>Note: as of August 2023 my personal portfolio web app has been updated to integrate TypeScript. Redesigned and re-engineered UI components with React. </i>
 
 <h3>Table of Contents</h3>
 
@@ -18,12 +19,13 @@ Note: as of August 2023 my personal portfolio web app has been updated to integr
 React.js 
 TypeScript
 CSS
-MapboxGL API -> not production-ready at this time
+EmailJS 
 Vercel
 ```
-### [Live](https://dbae.vercel.app/) - https://dbae.vercel.app/
 
-### [Repository](https://github.com/danveb/portfolio.db)
+### [Live Demo](https://dbae.vercel.app/) 
+
+### [GitHub Repository](https://github.com/danveb/portfolio.db)
 
 <h1>Setup</h1>
 
@@ -36,7 +38,7 @@ $ git clone git@github.com:danveb/portfolio.db.git
 Head to client on project directory where package.json/yarn.lock are located
 
 ```sh
-$ cd/portfolio.db/client
+$ cd portfolio.db/client
 ```
 
 Install required dependencies 
@@ -51,15 +53,20 @@ Start the server
 $ yarn start
 ```
 
-MapboxGL API 
+<h3>EmailJS</h3>
+EmailJS is a client-side email sending library that does not require any server-side code. It is integrated to the Contact page, where users can send me messages directly from the client. 
 
-```js
-// out-of-the-box Contact page will not work because API access token is required to use MapboxGL
+<br>
 
-// head to Mapbox API how to register for an API_KEY
+https://www.emailjs.com/docs/
 
-// include a .env file to store API SECRETS from the get-go
-REACT_APP_MAPBOX_API = SECRET
+
+Make sure to set up your account at EmailJS to get your own private set of keys. Then add them as environment variables. 
+
+```
+REACT_APP_SERVICE_ID=SECRET
+REACT_APP_TEMPLATE_ID=SECRET
+REACT_APP_PUBLIC_KEY=SECRET
 ```
 
 <h3>Test</h3>
@@ -69,12 +76,10 @@ Tested components via RTL (React Testing Library)
 ```sh
 $ yarn test --watchAll
 OR
-$ yarn test NAME_OF_COMPONENT.test.js
-
-Note: test may throw an error with the following line of code from Contact.jsx: 
-
-"import mapboxgl from "!mapbox-gl" // eslint-disable-line import/no-webpack-loader-syntax"
+$ yarn test NAME_OF_COMPONENT.test.tsx
 ```
+
+<br>
 
 <h1>Gallery</h1>
 
