@@ -1,34 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;600;700;800&display=swap");
 
 :root {
-    /* --font-base: "Mulish", "Kaisei Opti", "Ibarra Real Nova", "Space Grotesk", "Playfair Display", "Ubuntu", "Quicksand", sans-serif; */
-    --font-base: "Mulish", sans-serif;
+  /* --font-base: "Mulish", "Kaisei Opti", "Ibarra Real Nova", "Space Grotesk", "Playfair Display", "Ubuntu", "Quicksand", sans-serif; */
+  --font-base: "Mulish", sans-serif;
 
-    /* Palette Colors */
-    --raisin-black: #191c26; 
-    --rich-black: #111319; 
-    --alice-blue: #f4f9fc; 
-    --bottle-green: #006241; 
+  /* Palette Colors */
+  --raisin-black: #191c26;
+  --rich-black: #111319;
+  --alice-blue: #f4f9fc;
+  --bottle-green: #006241;
 }
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: var(--font-base); 
-    background-color: var(--rich-black); 
-    color: #fff; 
+  font-family: var(--font-base);
+  background-color: var(--rich-black);
+  color: #fff;
 }
 
 .dot--green {
-    font-family: "Mulish", sans-serif; 
-    color: var(--bottle-green); 
+  font-family: "Mulish", sans-serif;
+  color: var(--bottle-green);
 }
 
 .breakline {
-    border: 0.1px solid #d4d4d4; 
-    opacity: 0.4; 
+  border: 0.1px solid #d4d4d4;
+  opacity: 0.4;
 }
