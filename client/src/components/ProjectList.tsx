@@ -1,7 +1,7 @@
 import { projects } from "../constants/projects";
 import ProjectCard from "./ProjectCard";
 import Button from "./Button";
-import "../styles/ProjectList.css"; 
+import "../styles/ProjectList.css";
 
 export default function ProjectList() {
   return (
@@ -9,8 +9,8 @@ export default function ProjectList() {
       <div className="projectList__wrapper">
         {projects.map((project) => (
           <div key={project.id}>
-            <ProjectCard 
-              img={project.img} 
+            <ProjectCard
+              img={project.img}
               alt={project.alt}
               title={project.title}
               description={project.description}
@@ -21,7 +21,7 @@ export default function ProjectList() {
           </div>
         ))}
         <div className="projectList__btn">
-          <Button title="are you looking for more projects?" url="https://github.com/danveb" target="_blank" rel="noreferrer noopener" />
+          <Button title="are you looking for my repo?" url="https://github.com/danveb" target="_blank" rel="noreferrer noopener" />
         </div>
       </div>
     </div>

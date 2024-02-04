@@ -1,5 +1,5 @@
-import { ProjectList } from "../components"; 
-import "../styles/Projects.css"; 
+import { ProjectList } from "../components";
+import "../styles/Projects.css";
 
 export default function Projects() {
   return (
@@ -11,7 +11,7 @@ export default function Projects() {
           </div>
           <div className="breakline"></div>
           <div className="projects__intro">
-            <p>Here are some of my most loved projects: </p>
+            <p>Here are some of my current projects:</p>
           </div>
         </section>
         <section className="projects__gallery">
