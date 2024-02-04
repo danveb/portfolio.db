@@ -1,21 +1,21 @@
-<h1>portfolio.db</h1>
+## portfolio.db
 
-<p>A showcase of my journey in web development. Explore a selection of my latest web applications, crafted with the latest technologies. </p>
+A showcase of my journey in web development. Explore a selection of my latest web applications, crafted with the latest technologies.
 
-<i>Note: as of August 2023 my personal portfolio web app has been updated to integrate TypeScript. Redesigned and re-engineered UI components with React. </i>
+*Note: as of August 2023 my portfolio is updated with React TypeScript. A major UI redesign is now live.*
 
-<h3>Table of Contents</h3>
+### Table of Contents
 
-```sh
+```
 1. About
 2. Projects
 3. Contact 
 4. Resume
 ```
 
-<h3>Technologies</h3>
+### Technologies
 
-```sh
+```
 React.js 
 TypeScript
 CSS
@@ -27,39 +27,36 @@ Vercel
 
 ### [GitHub Repository](https://github.com/danveb/portfolio.db)
 
-<h1>Setup</h1>
+## Setup
 
-Clone repo
+Clone from repository 
 
 ```sh
-$ git clone git@github.com:danveb/portfolio.db.git
+git clone git@github.com:danveb/portfolio.db.git
 ```
 
 Head to client on project directory where package.json/yarn.lock are located
 
 ```sh
-$ cd portfolio.db/client
+cd portfolio.db/client
 ```
 
 Install required dependencies 
 
 ```sh
-$ yarn install
+yarn install
 ```
 
 Start the server 
 
 ```sh
-$ yarn start
+yarn start
 ```
 
-<h3>EmailJS</h3>
+#### EmailJS
 EmailJS is a client-side email sending library that does not require any server-side code. It is integrated to the Contact page, where users can send me messages directly from the client. 
 
-<br>
-
 https://www.emailjs.com/docs/
-
 
 Make sure to set up your account at EmailJS to get your own private set of keys. Then add them as environment variables. 
 
@@ -69,22 +66,22 @@ REACT_APP_TEMPLATE_ID=SECRET
 REACT_APP_PUBLIC_KEY=SECRET
 ```
 
-<h3>Test</h3>
+### Test
 
-Tested components via RTL (React Testing Library) 
+Perform unit testing of all components/pages with RTL (React Testing Library) and Jest matchers. 
 
 ```sh
-$ yarn test --watchAll
-OR
-$ yarn test NAME_OF_COMPONENT.test.tsx
+yarn test --watchAll
 ```
 
-<br>
+or 
 
-<h1>Gallery</h1>
+```sh
+yarn test name_of_component.test.tsx
+``` 
 
-<h3>Landing Page</h3>
-<img src="src/../client/src/assets/gallery/portfolio_blank.png">
+## Gallery 
 
-### Figma (Prototype v1)
-<img src="./client/src/assets/prototype/Frame%201.png" alt="Figma design prototype">
+![Landing Page](src/../client/src/assets/gallery/portfolio_blank.png)
+
+![Figma design prototype](./client/src/assets/prototype/Frame%201.png)
