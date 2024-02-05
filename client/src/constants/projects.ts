@@ -1,9 +1,9 @@
-import docmdx from "../assets/gallery/docmdx_blank.png";
-import sailly from "../assets/gallery/sailly_blank.png";
-import asador from "../assets/gallery/asador_blank.png";
-import bobaLife from "../assets/gallery/bobaLife_blank.png";
-import ioniq5 from "../assets/gallery/ioniq5_blank.png";
-import portfolio from "../assets/gallery/portfolio_blank.png";
+import docmdx from "../assets/gallery/docmdx_blank.webp";
+import sailly from "../assets/gallery/sailly_blank.webp";
+import asador from "../assets/gallery/asador_blank.webp";
+import bobaLife from "../assets/gallery/bobaLife_blank.webp";
+import ioniq5 from "../assets/gallery/ioniq5_blank.webp";
+import portfolio from "../assets/gallery/portfolio_blank.webp";
 
 export const projects = [
     {
